@@ -558,7 +558,7 @@ export default function LandingPage() {
                     </div>
                 </section>
                  {/* Completely Unknown  */}
-                    <section className=" py-16 px-4">
+                    <section className=" py-16 bg-white px-4">
                         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 items-start ">
                             {/* LEFT TEXT COLUMN */}
                             <div className="md:col-span-2 bg-slate-700 p-8">
@@ -1913,7 +1913,7 @@ export default function LandingPage() {
 
                             {/* RIGHT SIDEBAR */}
                             <div className="space-y-10">
-                                 <div className="bg-slate-400 text-white text-sm font-bold text-center py-2 uppercase">
+                                 <div className="bg-slate-400 text-black text-sm font-bold text-center py-2 uppercase">
                                 Here's What Others Have To Say
                             </div>
 
@@ -1924,7 +1924,7 @@ export default function LandingPage() {
                                 className="w-3/4 mx-auto"
                             />
 
-                            <p className="italic text-sm text-white max-w-xs mx-auto">
+                            <p className="italic text-sm text-black max-w-xs mx-auto">
                                 “We've been using the checklist for 3–4 weeks now and the results are amazing!! 🔥…”
                             </p>
                             <img
@@ -1933,7 +1933,7 @@ export default function LandingPage() {
                                 className="w-3/4 mx-auto"
                             />
 
-                            <p className="italic text-sm text-white max-w-xs mx-auto">
+                            <p className="italic text-sm text-black max-w-xs mx-auto">
                                 "...this checklist lays it out step-by-step in an easy-to-follow format :)"
                             </p>
                             <img
@@ -1942,7 +1942,7 @@ export default function LandingPage() {
                                 className="w-3/4 mx-auto"
                             />
 
-                            <p className="italic text-sm text-white max-w-xs mx-auto">
+                            <p className="italic text-sm text-black max-w-xs mx-auto">
                                "...We've gone in six months from 2% to 15% of our sales coming from organic tracked…😍"
                             </p>
                             {/* Guarantee Box */}
@@ -2113,9 +2113,9 @@ export default function LandingPage() {
 
                             {/* Pricing Info */}
                             <div>
-                                <p className="text-white text-xl font-bold">Only $27 Today</p>
-                                <p className="text-sm text-white">(Save $70 today)</p>
-                                <p className="text-white mt-2 text-sm">
+                                <p className="text-black text-xl font-bold">Only $27 Today</p>
+                                <p className="text-sm text-black">(Save $70 today)</p>
+                                <p className="text-black mt-2 text-sm">
                                 Download The checklist and 4 Bonuses for <s>$97</s> Just $27! Delivered instantly. Get started in the next 2 minutes.
                                 </p>
                             </div>
@@ -2146,7 +2146,7 @@ export default function LandingPage() {
                                 className="w-3/4 mx-auto"
                             />
 
-                            <p className="italic text-sm text-white max-w-xs mx-auto">
+                            <p className="italic text-sm text-black max-w-xs mx-auto">
                                 “We've been using the checklist for 3–4 weeks now and the results are amazing!! 🔥…”
                             </p>
                             <img
@@ -2155,7 +2155,7 @@ export default function LandingPage() {
                                 className="w-3/4 mx-auto"
                             />
 
-                            <p className="italic text-sm text-white max-w-xs mx-auto">
+                            <p className="italic text-sm text-black max-w-xs mx-auto">
                                 "...this checklist lays it out step-by-step in an easy-to-follow format :)"
                             </p>
                             <img
@@ -2164,7 +2164,7 @@ export default function LandingPage() {
                                 className="w-3/4 mx-auto"
                             />
 
-                            <p className="italic text-sm text-white max-w-xs mx-auto">
+                            <p className="italic text-sm text-black max-w-xs mx-auto">
                                "...We've gone in six months from 2% to 15% of our sales coming from organic tracked…😍"
                             </p>
                              {/* Testimonial 1 */}
@@ -2179,7 +2179,7 @@ export default function LandingPage() {
                                 <h3 className="font-bold text-lg">Edgar Pudans</h3>
 
                                 {/* Quote */}
-                                <p className="italic text-sm text-white">
+                                <p className="italic text-sm text-black">
                                 "This checklist is an absolute must-have for anyone with a Shopify store who wishes to give SEO a try of their own."
                                 </p>
                             </div>
@@ -2197,7 +2197,7 @@ export default function LandingPage() {
                                 <h3 className="font-bold text-lg">Igor Buyseech</h3>
 
                                 {/* Quote */}
-                                <p className="italic text-sm text-white">
+                                <p className="italic text-sm text-black">
                                 "My staff literally implemented the entire checklist for me, I didn’t make a single edit, we just let our employees take it and follow it. It’s really easy to use, it has great structure, even the design, it’s a lifesaver."
                                 </p>
                             </div>
@@ -2214,7 +2214,7 @@ export default function LandingPage() {
                                 <h3 className="font-bold text-lg">Matt Price</h3>
 
                                 {/* Quote */}
-                                <p className="italic text-sm text-white">
+                                <p className="italic text-sm text-black">
                                 "It boils it down to multiple steps, a total of 140 of them, and each one is broken into ON-Page, Technical SEO, Off-Page SEO, and so on. So I can really focus on areas where I'm not as strong in, and then focus to implement those and quickly document that inside the checklist."
                                 </p>
                             </div>
@@ -2232,7 +2232,7 @@ export default function LandingPage() {
                             <h3 className="font-bold text-lg">Urban Ropotar</h3>
 
                             {/* Quote */}
-                            <p className="italic text-sm text-white">
+                            <p className="italic text-sm text-black">
                            "I've been using the checklist for about a week or so and I see that things are coming together. It's like putting all the puzzles that we were missing together. And I see that it's like accumulating the resources and being prepared for the next bull run, which I believe will come soon after I do everything that is on this checklist. I would definitely recommend it."
                             </p>
                         </div>
@@ -2265,7 +2265,7 @@ export default function LandingPage() {
                             image: "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/33e92ec3-147a-48b2-8eec-9f48bc9693cb.png"
                         }
                         ].map((bonus, index) => (
-                        <div key={index} className="flex items-start space-x-4">
+                        <div key={index} className="flex items-start text-black space-x-4">
                             <img src={bonus.image} alt={bonus.title} className="w-14 h-auto" />
                             <div>
                             <h4 className="font-bold">{bonus.title}</h4>
@@ -2287,7 +2287,7 @@ export default function LandingPage() {
   />
 
   {/* Pricing Text */}
-  <div className="text-white font-bold text-lg">
+  <div className="text-black font-bold text-lg">
     Only <span className="text-[var(--primary)]">$27 Today</span>
     <div className="text-xs text-gray-500 font-normal">
       (Save $70 today)
@@ -2295,7 +2295,7 @@ export default function LandingPage() {
   </div>
 
   {/* Description */}
-  <p className="text-sm text-white mt-4 max-w-xs mx-auto">
+  <p className="text-sm text-black mt-4 max-w-xs mx-auto">
     Download the checklist and 4 Bonuses for <s>$97</s> Just <strong>$27</strong>!<br />
     Delivered instantly. Get started in the next 2 minutes.
   </p>
@@ -2306,7 +2306,7 @@ export default function LandingPage() {
   </p>
 
   {/* CTA Button */}
-  <button className="mt-4 bg-[var(--primary)] text-white font-bold text-sm px-4 py-2 w-full max-w-xs mx-auto block rounded shadow">
+  <button className="mt-4 bg-[var(--primary)] text-black font-bold text-sm px-4 py-2 w-full max-w-xs mx-auto block rounded shadow">
     Get The Checklist Now
     <div className="text-[10px] font-normal">
       Backed by Our 60-Day 100% Money Back Guarantee
