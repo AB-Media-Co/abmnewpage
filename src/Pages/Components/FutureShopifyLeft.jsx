@@ -2,8 +2,11 @@ import React from 'react'
 
 const FutureShopifyLeft = ({personalStory}) => {
     return (
+        <>
+      
         <div className="md:col-span-2 bg-white p-8">
-            <div className="space-y-4 text-black text-2xl mb-8 text-left max-w-2xl mx-auto">
+            
+            <div className="space-y-2 text-black text-xl mb-8 text-left max-w-3xl mx-auto">
                 <p><strong>Dear Future Shopify SEO Checklist Owner</strong> </p>
                 <p><strong>From:</strong> {personalStory.letter.from}</p>
                 <p><strong>Re:</strong> {personalStory.letter.re}</p>
@@ -26,7 +29,7 @@ const FutureShopifyLeft = ({personalStory}) => {
 
 
             <div className="space-y-4 text-xl text-black">
-                <p className='bg-[var(--primary)]'>But first, read this disclaimer:</p>
+                <p className='bg-[var(--primary)] text-white p-2' >But first, read this disclaimer:</p>
                 <p>
                     I have been in SEO for over 7 years, worked on hundreds of projects, and generated over $25MM in Shopify sales with organic traffic in the last 2 years alone.
                 </p>
@@ -104,7 +107,7 @@ const FutureShopifyLeft = ({personalStory}) => {
     </div> */}
                 </div>
 
-                <div className="text-black text-xl text-left space-y-4 max-w-2xl mx-auto text-base">
+                <div className="text-black text-xl text-left space-y-4 max-w-3xl mx-auto text-base">
                     <p>
                         And even though growing his Shopify store’s organic traffic is great, it’s not the best part…
                     </p>
@@ -282,7 +285,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                     <img
                         src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png"
                         alt="Shopify SEO Checklist"
-                        className="w-full max-w-2xl rounded-md shadow-lg"
+                        className="w-full max-w-2xl rounded-md "
                     />
                 </div>
 
@@ -325,7 +328,7 @@ const FutureShopifyLeft = ({personalStory}) => {
 
                 {/* CTA Button */}
                 <div className="text-center mt-6">
-                    <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md shadow-md">
+                    <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md ">
                         Get The Checklist Now<br />
                         <span className="text-sm block mt-1 font-normal">
                             Backed by Our 60-Day 100% Money Back Guarantee
@@ -338,7 +341,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                     <img
                         src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/eb5a6f26-ebf2-489c-83a0-aeafb763e6ab.png"
                         alt="Shopify SEO Checklist"
-                        className="w-full max-w-2xl rounded-md shadow-lg"
+                        className="w-full max-w-2xl rounded-md "
                     />
                 </div>
 
@@ -479,7 +482,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                 </h2>
 
                 <div className="text-center">
-                    <button className="bg-[var(--primary)] hover:bg-[var(--primary)] text-white font-bold py-2 px-6 rounded shadow-md mt-4">
+                    <button className="bg-[var(--primary)] hover:bg-[var(--primary)] text-white font-bold py-2 px-6 rounded  mt-4">
                         Get The Checklist Now
                         <p className="text-xs text-white mt-1">Backed By Our 60-Day 100% Money Back Guarantee</p>
                     </button>
@@ -513,7 +516,7 @@ const FutureShopifyLeft = ({personalStory}) => {
 
                 <p className="text-black font-semibold">The Shopify SEO Checklist was the perfect thing for me...</p>
 
-                <p className="bg-[var(--primary)] text-black font-semibold italic p-2">
+                <p className="bg-[var(--primary)] text-white font-semibold italic p-2">
                     And the best part that attracted me to doing it this way?
                 </p>
 
@@ -582,7 +585,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                 </p>
 
                 <div className="w-full flex justify-center">
-                    <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/43770a00-f571-4f54-b55a-9e755dc0ea7c.jpeg" alt="Revenue Graph" className="rounded-lg shadow-md" />
+                    <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/43770a00-f571-4f54-b55a-9e755dc0ea7c.jpeg" alt="Revenue Graph" className="rounded-lg" />
                 </div>
 
                 <p className="text-black">
@@ -616,7 +619,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                     Wanna Know The Main Difference Between The Shopify SEO Checklist And The “SEO Strategies” By Gurus?
                 </h2>
 
-                <p className="text-black bg-[var(--primary)] ">
+                <p className="text-white p-2 bg-[var(--primary)] ">
                     The main difference is the focus.                        </p>
 
                 <p className="text-black underline">
@@ -642,8 +645,10 @@ const FutureShopifyLeft = ({personalStory}) => {
 
                 <p className="text-black">
                     It’s as simple as that.                        </p>
+                      <div className='mt-8 flex justify-center'>
+                  
                 <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/cdd71822-ea12-4789-8db2-7cb365b7590b.png" alt="Graph showing traffic growth" className="w-10/12 mt-8 flex justify-center" />
-
+</div>
                 {/* next sec */}
 
                 <h2 className="text-4xl font-bold text-center text-[var(--primary)]">
@@ -653,25 +658,28 @@ const FutureShopifyLeft = ({personalStory}) => {
                 <p>
                     From <a href="#" className="underline text-[var(--primary)]">3,000 to 23,867 monthly organic traffic</a> in 7 months.👇
                 </p>
+                  <div className='mt-8 flex justify-center'>
                 <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/c3ca07e6-33df-42a4-8954-59ee48fbc15d.jpeg" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
-
+</div>
                 <p>
                     From <a href="#" className="underline text-[var(--primary)]">4,000 to 17,342 monthly organic traffic</a> in 6 months.👇
                 </p>
+                  <div className='mt-8 flex justify-center'>
                 <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/61212cb1-b570-4d53-ac89-f71d889f373a.jpeg" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
-
+</div>
                 <p>
                     From <a href="#" className="underline text-[var(--primary)]">2,000 to 36,800 monthly organic traffic</a> in 15 months.👇
                 </p>
+                  <div className='mt-8 flex justify-center'>
                 <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/87dbc4f0-5bf9-4f69-a0d5-4b8f5af30ca3.png" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
-
+</div>
                 <p>
                     From <a href="#" className="underline text-[var(--primary)]">3,500 to 18,900 monthly organic traffic</a> in 5 months.👇
-                </p>
+                </p>  <div className='mt-8 flex justify-center'>
                 <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0ff47fe0-1123-41ba-949e-a40869f9a6e3.jpeg" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
-
+</div>
                 <div className="text-center">
-                    <button className="bg-[var(--primary)] hover:opacity-90 text-white font-bold py-2 px-6 rounded shadow-md mt-6">
+                    <button className="bg-[var(--primary)] hover:opacity-90 text-white font-bold py-2 px-6 rounded  mt-6">
                         Get The Checklist Now
                         <p className="text-xs text-white mt-1">Backed By Our 60-Day 100% Money Back Guarantee</p>
                     </button>
@@ -1164,8 +1172,9 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         (This Creates A Self Reinforcing Cycle, Higher CTRs Result In Higher Ranking Positions, Which Again Results In Higher CTRs, Etc...)
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 43</p>
+                    <div className="mt-8 flex justify-center">
                     <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f2673743-8694-48ff-957b-f8826fdacd53.png" alt="Example Google Listing" className="w-11/12 rounded-lg border border-gray-400" />
-                </div>
+               </div> </div>
 
                 {/* Section 2 */}
                 <div className="space-y-2 text-black">
@@ -1174,8 +1183,8 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         (Bing Is Ignored By Almost Everyone, But It Can Still Drive A Lot Of Organic Revenue. It’s Something You Don’t Want To Miss Out On.)
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 22</p>
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d67e35b-aea1-4807-9270-796901f5ce39.jpg" alt="Bing Analytics Dashboard" className="w-11/12 rounded-lg border border-gray-400" />
-                </div>
+                    <div className="mt-8 flex justify-center"><img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d67e35b-aea1-4807-9270-796901f5ce39.jpg" alt="Bing Analytics Dashboard" className="w-11/12 rounded-lg border border-gray-400" />
+                </div></div>
 
                 {/* Section 3 */}
                 <div className="space-y-2 text-black">
@@ -1185,7 +1194,8 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         Imagine How Much Of an Increase In Sales You’d See By Properly Addressing ALL Of Their Concerns).
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 101</p>
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f4a250b3-6b36-4745-b51d-c74d99e05e1d.png" alt="Silo Content Structure" className="w-11/12 rounded-lg border border-gray-400" />
+                 <div className="mt-8 flex justify-center">   <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f4a250b3-6b36-4745-b51d-c74d99e05e1d.png" alt="Silo Content Structure" className="w-11/12 rounded-lg border border-gray-400" />
+                </div>
                 </div>
                 {/* Section 1: Affiliate Recruiting */}
                 <div className="text-black space-y-2">
@@ -1194,7 +1204,9 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         (Thousands Of Affiliates Are Looking For Stores To Work With. By Leveraging SEO, You Can Position Your Shopify Store As The Perfect Affiliate Partner And Have An Affiliate Recruiting System Running On Autopilot)
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 105</p>
+                    <div className="mt-8 flex justify-center">
                     <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/b9f469ee-7ad1-4a73-b9a0-214281f82b39.png" alt="Affiliate Programs SERP" className="w-11/12 rounded-lg border border-gray-400" />
+                </div>
                 </div>
 
                 {/* Section 2: YouTube SEO */}
@@ -1204,7 +1216,9 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         (YouTube Has Just As Much Search Volume As Google, Position Your Shopify Store Properly And You Can EASILY Double Your Current Organic Reach & Revenue.)
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 102</p>
+                    <div className="mt-8 flex justify-center">
                     <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8f7d7934-defb-4b38-8c4a-99810ec476df.png" alt="YouTube Video Results" className="w-11/12 rounded-lg border border-gray-400" />
+                </div>
                 </div>
 
                 {/* Section 3: Negative SEO Protection */}
@@ -1214,7 +1228,9 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         (Let’s Face It, Your Competitors Will Always Play Dirty. While I Don’t Suggest Doing Negative SEO Attacks On Your Competitor’s Shopify Stores, It’s In Your Best Interest To Protect Your Own Rankings. The System I Will Share With You Makes This Easy.)
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 87</p>
+                    <div className="mt-8 flex justify-center">
                     <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/56be2c1a-b913-46d8-8f7a-780c23908fe2.jpeg" alt="Organic Traffic Protection" className="w-11/12 rounded-lg border border-gray-400" />
+                </div>
                 </div>
                 <div className="space-y-2">
                     <p>
@@ -1224,9 +1240,10 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         (If You Ship To Multiple Countries, And Have Built Out A Profitable SEO Strategy In Your Main Market, You Can Leverage Your Existing Content To Rapidly Scale And Rank In International Markets).
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 120</p>
+                    <div className="mt-8 flex justify-center">
                     <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8ef76219-7c6c-486d-aa5d-cd665168f1d7.jpeg" alt="International SEO Chart" className="w-11/12 rounded-lg border border-gray-400" />
                 </div>
-
+                            </div>
                 {/* Crawl and efficiency info */}
                 <p className="text-sm">
                     I’ll also show you how to get Google to crawl your Shopify store faster, and more efficiently, allowing you to have one more advantage over your SEO competitors.
@@ -1241,7 +1258,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     Plus I'm Going To Give You A Shopify ON-Page SEO Mastery
                 </h2>
                 <div className="mt-8 flex justify-center">
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify On-Page SEO Guide" className="w-full rounded shadow-lg" />
+                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify On-Page SEO Guide" className="w-full rounded " />
                 </div>
                 <p>
                     As a Shopify store, the pages with the most potential to generate additional revenue for your business are ultimately your homepage, collection, and product pages.
@@ -1342,7 +1359,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     You’re Also Getting GoldenWeb’s Shopify SEO Vault
                 </h3>
                 <div className="mt-8 flex justify-center">
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify SEO Vault Bonus" className="w-full rounded shadow-lg" />
+                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify SEO Vault Bonus" className="w-full rounded " />
                 </div>
                 <p>
                     Over the years my team and I have generated over $25MM in additional revenue for Shopify stores, all from SEO and organic traffic.
@@ -1373,7 +1390,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     <div className="mt-8 flex justify-center"><img
                         src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/a94da2b5-949f-496c-8899-8a7b71efd514.png"
                         alt="Best Shopify Themes for SEO"
-                        className="w-full rounded shadow-lg"
+                        className="w-full rounded "
                     /></div>
                 </div>
 
@@ -1386,7 +1403,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     <div className="mt-8 flex justify-center"><img
                         src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/33e92ec3-147a-48b2-8eec-9f48bc9693cb.png"
                         alt="Access to Shopify SEO Community"
-                        className="w-full rounded shadow-lg"
+                        className="w-full rounded "
                     /></div>
                 </div>
 
@@ -1443,7 +1460,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                 <img
                     src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png"
                     alt="Shopify SEO Checklist Bundle"
-                    className="w-full rounded shadow-lg"
+                    className="w-full rounded "
                 />
             </div>
 
@@ -1476,6 +1493,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                 And if you’re not happy for any reason (and I mean ANY reason) - just let me know and we’ll refund you your $27.</p>
 
         </div>
+        </>
     )
 }
 
