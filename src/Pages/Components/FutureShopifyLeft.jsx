@@ -585,7 +585,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                 </p>
 
                 <div className="w-full flex justify-center">
-                    <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/43770a00-f571-4f54-b55a-9e755dc0ea7c.jpeg" alt="Revenue Graph" className="rounded-lg" />
+                    <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/43770a00-f571-4f54-b55a-9e755dc0ea7c.jpeg" alt="Revenue Graph" className=" w-full rounded-lg" />
                 </div>
 
                 <p className="text-black">
@@ -647,7 +647,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                     It’s as simple as that.                        </p>
                       <div className='mt-8 flex justify-center'>
                   
-                <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/cdd71822-ea12-4789-8db2-7cb365b7590b.png" alt="Graph showing traffic growth" className="w-10/12 mt-8 flex justify-center" />
+                <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/cdd71822-ea12-4789-8db2-7cb365b7590b.png" alt="Graph showing traffic growth" className="w-full mt-8 flex justify-center" />
 </div>
                 {/* next sec */}
 
@@ -659,24 +659,24 @@ const FutureShopifyLeft = ({personalStory}) => {
                     From <a href="#" className="underline text-[var(--primary)]">3,000 to 23,867 monthly organic traffic</a> in 7 months.👇
                 </p>
                   <div className='mt-8 flex justify-center'>
-                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/c3ca07e6-33df-42a4-8954-59ee48fbc15d.jpeg" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
+                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/c3ca07e6-33df-42a4-8954-59ee48fbc15d.jpeg" alt="Graph showing traffic growth" className="w-full rounded shadow" />
 </div>
                 <p>
                     From <a href="#" className="underline text-[var(--primary)]">4,000 to 17,342 monthly organic traffic</a> in 6 months.👇
                 </p>
                   <div className='mt-8 flex justify-center'>
-                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/61212cb1-b570-4d53-ac89-f71d889f373a.jpeg" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
+                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/61212cb1-b570-4d53-ac89-f71d889f373a.jpeg" alt="Graph showing traffic growth" className="w-full rounded shadow" />
 </div>
                 <p>
                     From <a href="#" className="underline text-[var(--primary)]">2,000 to 36,800 monthly organic traffic</a> in 15 months.👇
                 </p>
                   <div className='mt-8 flex justify-center'>
-                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/87dbc4f0-5bf9-4f69-a0d5-4b8f5af30ca3.png" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
+                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/87dbc4f0-5bf9-4f69-a0d5-4b8f5af30ca3.png" alt="Graph showing traffic growth" className="w-full rounded shadow" />
 </div>
                 <p>
                     From <a href="#" className="underline text-[var(--primary)]">3,500 to 18,900 monthly organic traffic</a> in 5 months.👇
                 </p>  <div className='mt-8 flex justify-center'>
-                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0ff47fe0-1123-41ba-949e-a40869f9a6e3.jpeg" alt="Graph showing traffic growth" className="w-10/12 rounded shadow" />
+                <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0ff47fe0-1123-41ba-949e-a40869f9a6e3.jpeg" alt="Graph showing traffic growth" className="w-full rounded shadow" />
 </div>
                 <div className="text-center">
                     <button className="bg-[var(--primary)] hover:opacity-90 text-white font-bold py-2 px-6 rounded  mt-6">
@@ -1029,7 +1029,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                 </p>
 
                 <div className='mt-8 flex justify-center'>
-                    <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0e5ea02e-ebac-45a8-ae3f-879485bac174.png'></img>
+                    <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0e5ea02e-ebac-45a8-ae3f-879485bac174.png' className='w-full'></img>
                 </div>
 
                 <p className="text-black font-bold underline italic">
@@ -1173,7 +1173,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 43</p>
                     <div className="mt-8 flex justify-center">
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f2673743-8694-48ff-957b-f8826fdacd53.png" alt="Example Google Listing" className="w-11/12 rounded-lg border border-gray-400" />
+                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f2673743-8694-48ff-957b-f8826fdacd53.png" alt="Example Google Listing" className="w-full rounded-lg border border-gray-400" />
                </div> </div>
 
                 {/* Section 2 */}
@@ -1183,7 +1183,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         (Bing Is Ignored By Almost Everyone, But It Can Still Drive A Lot Of Organic Revenue. It’s Something You Don’t Want To Miss Out On.)
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 22</p>
-                    <div className="mt-8 flex justify-center"><img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d67e35b-aea1-4807-9270-796901f5ce39.jpg" alt="Bing Analytics Dashboard" className="w-11/12 rounded-lg border border-gray-400" />
+                    <div className="mt-8 flex justify-center"><img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d67e35b-aea1-4807-9270-796901f5ce39.jpg" alt="Bing Analytics Dashboard" className="w-full rounded-lg border border-gray-400" />
                 </div></div>
 
                 {/* Section 3 */}
@@ -1194,7 +1194,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                         Imagine How Much Of an Increase In Sales You’d See By Properly Addressing ALL Of Their Concerns).
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 101</p>
-                 <div className="mt-8 flex justify-center">   <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f4a250b3-6b36-4745-b51d-c74d99e05e1d.png" alt="Silo Content Structure" className="w-11/12 rounded-lg border border-gray-400" />
+                 <div className="mt-8 flex justify-center">   <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f4a250b3-6b36-4745-b51d-c74d99e05e1d.png" alt="Silo Content Structure" className="w-full rounded-lg border border-gray-400" />
                 </div>
                 </div>
                 {/* Section 1: Affiliate Recruiting */}
@@ -1205,7 +1205,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 105</p>
                     <div className="mt-8 flex justify-center">
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/b9f469ee-7ad1-4a73-b9a0-214281f82b39.png" alt="Affiliate Programs SERP" className="w-11/12 rounded-lg border border-gray-400" />
+                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/b9f469ee-7ad1-4a73-b9a0-214281f82b39.png" alt="Affiliate Programs SERP" className="w-full rounded-lg border border-gray-400" />
                 </div>
                 </div>
 
@@ -1217,7 +1217,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 102</p>
                     <div className="mt-8 flex justify-center">
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8f7d7934-defb-4b38-8c4a-99810ec476df.png" alt="YouTube Video Results" className="w-11/12 rounded-lg border border-gray-400" />
+                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8f7d7934-defb-4b38-8c4a-99810ec476df.png" alt="YouTube Video Results" className="w-full rounded-lg border border-gray-400" />
                 </div>
                 </div>
 
@@ -1229,7 +1229,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 87</p>
                     <div className="mt-8 flex justify-center">
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/56be2c1a-b913-46d8-8f7a-780c23908fe2.jpeg" alt="Organic Traffic Protection" className="w-11/12 rounded-lg border border-gray-400" />
+                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/56be2c1a-b913-46d8-8f7a-780c23908fe2.jpeg" alt="Organic Traffic Protection" className="w-full rounded-lg border border-gray-400" />
                 </div>
                 </div>
                 <div className="space-y-2">
@@ -1241,7 +1241,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     </p>
                     <p className="text-black font-semibold">All Explained In The Checklist, Row 120</p>
                     <div className="mt-8 flex justify-center">
-                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8ef76219-7c6c-486d-aa5d-cd665168f1d7.jpeg" alt="International SEO Chart" className="w-11/12 rounded-lg border border-gray-400" />
+                    <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8ef76219-7c6c-486d-aa5d-cd665168f1d7.jpeg" alt="International SEO Chart" className="w-full rounded-lg border border-gray-400" />
                 </div>
                             </div>
                 {/* Crawl and efficiency info */}
@@ -1415,7 +1415,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                     <p>In fact, I believe it’s …</p>
                 </div>
             </div>
-            <div className='bg-black p-4'>
+            <div className='bg-black p-4 mt-4'>
                 <div className="max-w-4xl  mx-auto text-white space-y-8">
 
                     {/* Money-Back Header */}
@@ -1472,7 +1472,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
             </div>
 
             {/* CTA Section */}
-            <div className="bg-[var(--primary)] text-white text-2xl text-center font-bold py-4 rounded">
+            <div className="bg-[var(--primary)] text-white text-2xl text-center font-bold py-4 mt-4 rounded">
                 Get The Checklist Now
                 <p className="text-sm  font-medium">Backed by Our 60-Day 100% Money Back Guarantee</p>
             </div>
