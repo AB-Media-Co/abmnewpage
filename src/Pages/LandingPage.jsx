@@ -257,30 +257,9 @@ export default function LandingPage() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
-        <div>
-          <h3 className="text-center text-2xl font-bold mb-4">The Old Way</h3>
-          <ul className="space-y-2 text-lg list-disc list-inside">
-            <li>Foundation = Wasted Time and Money</li>
-            <li>Try to Find “Good Keyword Opportunities”</li>
-            <li>“SEO Optimized” Articles That Don’t Rank</li>
-            <li>Add Internal Links to Nowhere</li>
-            <li>Buy Backlinks that Don't Work</li>
-            <li>Fix Technical SEO Errors That Don’t Matter</li>
-            <li>See Rankings Drop - Then Panic</li>
-            <li>Give Up and Start Over Feeling Frustrated</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="text-center text-2xl font-bold mb-4">The New Way</h3>
-          <ul className="space-y-2 text-lg list-disc list-inside text-[var(--primary)]">
-            <li>Consistent Organic Traffic and Revenue</li>
-            <li>Identify Valuable SEO Quick-Wins</li>
-            <li>Implement SEO Quick-Wins with Provided Guides</li>
-            <li>Publish the Changes & Wait for Google to Crawl</li>
-            <li>30-40% Increases in Shopify Organic Traffic and Revenue</li>
-          </ul>
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm relative w-full max-w-lg mx-auto">
+        <img src='https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/ddde26a9-ab31-42e0-902b-9cd6f0624140.png' className='h-120 w-90'></img>
+        
       </div>
 
       {/* Section Title */}
@@ -327,7 +306,7 @@ export default function LandingPage() {
 
                     {/* right section  */}
                     <div>
-                        <div className="pb-126 bg-[var(--primary)] rounded-md text-center space-y-6">
+                        <div className="pb-126 p-6 bg-[var(--primary)] rounded-md text-center space-y-6">
                             {/* —————— OFFER HEADLINE —————— */}
                             <h3 className="text-2xl font-bold mb-4 underline">
                                 {product.offerEnds}
@@ -566,7 +545,8 @@ export default function LandingPage() {
                         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 items-start ">
                             {/* LEFT TEXT COLUMN */}
                             <div className="md:col-span-2 bg-white p-8">
-                                 <div className="space-y-4 text-black mb-8 text-left max-w-2xl mx-auto">
+                                 <div className="space-y-4 text-black text-2xl mb-8 text-left max-w-2xl mx-auto">
+                                    <p><strong>Dear Future Shopify SEO Checklist Owner</strong> </p>
                             <p><strong>From:</strong> {personalStory.letter.from}</p>
                             <p><strong>Re:</strong> {personalStory.letter.re}</p>
                             <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/1e4baa4d-a24b-43ab-b440-a5e8b5e138c5.jpg'></img>
@@ -575,11 +555,10 @@ export default function LandingPage() {
                                 {personalStory.letter.quotes.map((q, i) => (<div key={i} className="bg-[var(--primary)] p-2 rounded"><p>{q}</p></div>))}
                             </div> */}
                         </div>
-                        <h2 className="text-4xl text-[var(--primary)] font-bold mb-6">
+                        <h2 className="text-4xl text-center text-[var(--primary)] font-bold mb-6">
                                 {[
-                                'And I Did It By Using A ',
-                                'Completely Unknown SEO Strategy ',
-                                'That I’m About To Share With You On This Very Page…',
+                                    'So Let Me Prove It To You'
+                                
                                 ].map((p, i) => (
                                 <span key={i} className={i % 2 ? 'text-[var(--primary)]' : 'text-[var(--primary)]'}>
                                     {p}
@@ -589,6 +568,7 @@ export default function LandingPage() {
 
                             
                             <div className="space-y-4 text-xl text-black">
+                                <p className='bg-[var(--primary)]'>But first, read this disclaimer:</p>
                                 <p>
                                 I have been in SEO for over 7 years, worked on hundreds of projects, and generated over $25MM in Shopify sales with organic traffic in the last 2 years alone.
                                 </p>
@@ -601,11 +581,14 @@ export default function LandingPage() {
                                All purchases entail risk as well as massive and consistent effort and action. If you're not willing to accept that, please DO NOT GET THIS checklist.
                                 </p>
                                 <p>And yes, it took me time and energy to achieve my results.</p>
+                                <img src='https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/b3b8a416-f125-4227-99cd-36acb62be6d2.png'></img>
                             
                             </div>
-                                <h2 className="text-4xl text-[var(--primary)] font-bold mb-6">
+                                <h2 className="text-4xl text-center text-[var(--primary)] font-bold mb-6">
                                 {[
-                                'So Let Me Prove It To You',
+                                'And I Did It By Using A ',
+                                'Completely Unknown SEO Strategy ',
+                                'That I’m About To Share With You On This Very Page…',
                                 
                                 ].map((p, i) => (
                                 <span key={i} className={i % 2 ? 'text-[var(--primary)]' : 'text-[var(--primary)]'}>
@@ -629,8 +612,8 @@ export default function LandingPage() {
                             
 
                               {/* next section */}
-                            <h2 className="text-4xl font-bold text-black leading-snug mb-8">
-                        <span className="text-[var(--primary)]">
+                            <h2 className="text-4xl text-center font-bold text-black leading-snug mb-2">
+                        <span className="text-[var(--primary)] ">
                             Just Like Alex, Who Downloaded The Shopify SEO Checklist A Few Weeks Ago
                         </span>{' '}
                         <br />
@@ -678,7 +661,7 @@ export default function LandingPage() {
                         </p>
                         </div>
                          {/* Jesse Section */}
-                                <h2 className="text-4xl font-bold mb-4 text-[var(--primary)]">
+                                <h2 className="text-4xl text-center font-bold mb-4 text-[var(--primary)]">
                                 This Is Jesse, Another Shopify SEO Checklist User, Who Downloaded the Shopify SEO Checklist Not Too Long Ago...
                                 </h2>
                                 <p className="text-black text-xl underline mb-6 text-base">
@@ -699,7 +682,7 @@ export default function LandingPage() {
                                 </div>
 
                                 {/* Max Section */}
-                                <h3 className="text-4xl font-bold mb-6 text-[var(--primary)]">
+                                <h3 className="text-4xl text-center font-bold mb-6 text-[var(--primary)]">
                                 Meet Max Who Increased The Organic Revenue Of His Store From 2% to OVER 15%
                                 </h3>
 
@@ -753,7 +736,7 @@ export default function LandingPage() {
                                     </p>
 
                                     {/* Foundation Focus Section */}
-                                    <h3 className="text-4xl font-bold text-[var(--primary)] mt-8">
+                                    <h3 className="text-4xl text-center font-bold text-[var(--primary)] mt-8">
                                     How? We Focus On Optimizing Shopify Store’s SEO Foundation First...
                                     </h3>
 
@@ -838,12 +821,13 @@ export default function LandingPage() {
 
                         {/* Image Placeholder */}
                         <div className="mt-8 flex justify-center">
-                        <img
-                            src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png"
-                            alt="Shopify SEO Checklist"
-                            className="w-full max-w-md rounded-md shadow-lg"
-                        />
-                        </div>
+                            <img
+                                src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png"
+                                alt="Shopify SEO Checklist"
+                                className="w-full max-w-2xl rounded-md shadow-lg"
+                            />
+                            </div>
+
 
                         {/* Heading */}
                         <h2 className="text-4xl font-bold text-[var(--primary)] text-center">
@@ -892,23 +876,19 @@ export default function LandingPage() {
                         </div>
 
                         {/* Image Section */}
-                        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center align-middle">
+                        <div className="mt-8 flex justify-center">
                         <img
                             src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/eb5a6f26-ebf2-489c-83a0-aeafb763e6ab.png"
-                            alt="Benjamin Golden"
-                            className="w-full rounded-lg shadow-lg"
+                            alt="Shopify SEO Checklist"
+                            className="w-full max-w-2xl rounded-md shadow-lg"
                         />
-                        {/* <img
-                            src="/images/seo-author-image2.png"
-                            alt="SEO Graph and Results"
-                            className="w-full rounded-lg shadow-lg"
-                        /> */}
                         </div>
+
 
                              {/* Luckiest Person On Earth  */}
                             
                             {/* Main Heading */}
-                            <h2 className="text-4xl font-bold text-[var(--primary)]">
+                            <h2 className="text-4xl text-center font-bold text-[var(--primary)]">
                             As We Get To Know Each Other… You’ll Quickly Realize That I’m The Luckiest Person On Earth – So Let’s Talk About Where I Was On March 15th, 2019
                             </h2>
 
@@ -928,7 +908,7 @@ export default function LandingPage() {
                             <p className="text-black">
                             Unfortunately, being quite naive, I invested a lot of time and effort into buying expensive SEO consultations, courses, trainings, as well as different SEO strategies, with the hopes that I’d finally learn how to get to the top of Google.
                             </p>
-                            <p className="text-black font-semibold">
+                            <p className="text-black font-bold">
                             After spending over 2 years, and tens of thousands of dollars on failed SEO services and strategies, it hit me…
                             </p>
                             <p className="text-black">I realized this wasn’t working…</p>
@@ -938,7 +918,7 @@ export default function LandingPage() {
                             </p>
 
                             {/* Subheading */}
-                            <h3 className="text-4xl font-bold text-[var(--primary)]">
+                            <h3 className="text-4xl text-center font-bold text-[var(--primary)]">
                             I’d Always End Up With A Shopify Store, That Looked Great On Paper, But Generated No Sales And I Hated It…
                             </h3>
 
@@ -946,11 +926,11 @@ export default function LandingPage() {
                             <p className="text-black">
                             I hated it because of all the time, money, and effort I invested in following different SEO strategies from SEO gurus.
                             </p>
-                            <p className="text-black">
+                            <p className="text-black font-bold">
                             I had goals, dreams, and aspirations… I wanted more out of life…
                             </p>
-                            <p className="text-black font-semibold">
-                            And I knew a Shopify store generating 0% from organic traffic wasn’t going to work.
+                            <p className="text-black font-bold">
+                            ...and I knew a Shopify store generating 0% from organic traffic wasn’t going to work.
                             </p>
                             <p className="text-black">
                             So I did what everyone else out there does in that situation.
@@ -964,7 +944,7 @@ export default function LandingPage() {
                             </p>
 
                             {/* Best of All */}
-                            <p className="text-black font-semibold">Best of all?</p>
+                            <p className="text-black font-bold">Best of all?</p>
                             <p className="text-black">
                             They were all following the same exact strategy, with their own unique twist, across the different niches.
                             </p>
@@ -978,7 +958,7 @@ export default function LandingPage() {
                             <p className="text-black">
                             The only difference was, that they were launching every Shopify store by following an exact, step-by-step <span className="font-semibold italic">“Shopify SEO Checklist”</span>, that allowed them to achieve perfectly optimized technical SEO foundation, as soon as they launched.
                             </p>
-                            <p className="text-black">So I said to myself…</p>
+                            <p className="text-black font-bold">So I said to myself…</p>
                             <p className="text-black italic">It’s now or never, and this is the last thing I’m going to try before I give up on SEO for good.</p>
                             <p className="text-black">
                             So I reached out to the most knowledgeable members of the Facebook group and got a few paid consultations.
@@ -995,7 +975,7 @@ export default function LandingPage() {
                             <p className="text-black">
                             The theory is that “when you build enough backlinks”, you’re supposed to start ranking.
                             </p>
-                            <p className="text-black font-semibold">
+                            <p className="text-black font-bold">
                             That’s not 100% true, and relying on that presents a big risk to any SEO strategy…
                             </p>
                             <p className="text-black">
@@ -1005,7 +985,7 @@ export default function LandingPage() {
                             …On the contrary, the <span className="font-semibold italic">Shopify SEO Checklist</span> is all about identifying all of the foundational technical SEO errors on your Shopify store, and turning them into quick-win SEO opportunities, to get results as fast as possible, and maximize your ROI.
                             </p>
                             <p className="text-black">I like to compare the thinking behind the strategy used in the Shopify SEO Checklist, with the concept of filling up a leaking bucket.</p>
-                            <p className="text-black font-semibold">Think about it…</p>
+                            <p className="text-black font-bold">Think about it…</p>
                             <p className="text-black">
                             If you have a leaking bucket, no matter how much water you pour into it, the bucket will never stay full.
                             </p>
@@ -1024,7 +1004,7 @@ export default function LandingPage() {
                             <p className="text-black font-semibold italic">
                             (On average, we see a lift in organic traffic of about 30-40%, within 90 days of implementing all of the SEO quick-wins identified in the Shopify SEO Checklist).
                             </p>
-                            <p className="text-black font-semibold">Best of all?</p>
+                            <p className="text-black font-bold">Best of all?</p>
                             <p className="text-black">
                             Chances are your competitors have never heard of, or considered fixing up their technical SEO issues, leaving a lot of potential SEO revenue on the table...
                             </p>
@@ -1036,15 +1016,16 @@ export default function LandingPage() {
                             </p>
                             {/* seo quick links */}
 
-                            <h2 className="text-4xl text-[var(--primary)] font-bold">
+                            <h2 className="text-4xl text-center text-[var(--primary)] font-bold">
                     The SEO Quick-Wins Inside The Shopify SEO Checklist Is One Of The Most Legitimate And Easy-To-Use Formulas If You Want To Dramatically Increase Your Organic Traffic And Revenue
                     </h2>
 
                     <div className="text-center">
                     <button className="bg-[var(--primary)] hover:bg-[var(--primary)] text-white font-bold py-2 px-6 rounded shadow-md mt-4">
                         Get The Checklist Now
+                        <p className="text-xs text-white mt-1">Backed By Our 60-Day 100% Money Back Guarantee</p>
                     </button>
-                    <p className="text-xs text-black mt-1">Backed By Our 60-Day 100% Money Back Guarantee</p>
+                    
                     </div>
 
                     <p className="text-black text-lg font-semibold">Just think about it:</p>
@@ -1072,13 +1053,13 @@ export default function LandingPage() {
                     </li>
                     </ul>
 
-                    <p className="text-black">The Shopify SEO Checklist was the perfect thing for me...</p>
+                    <p className="text-black font-semibold">The Shopify SEO Checklist was the perfect thing for me...</p>
 
                     <p className="bg-[var(--primary)] text-black font-semibold italic p-2">
                     And the best part that attracted me to doing it this way?
                     </p>
 
-                    <h3 className="text-4xl text-[var(--primary)] font-bold">
+                    <h3 className="text-4xl text-[var(--primary)] text-center font-bold">
                     You Don’t Even Have To Invest Into Linkbuilding, Hoping To Get Results
                     </h3>
 
@@ -1086,16 +1067,16 @@ export default function LandingPage() {
                     This means you can increase your organic traffic by up to 30-40% within 90 days, without building a single link.
                     </p>
 
-                    <p className="text-black">
+                    <p className="text-black font-bold">
                     All you have to do is identify all of the SEO quick-wins available for your Shopify store, and implement them – all of which you can do with the Shopify SEO Checklist.
                     </p>
 
-                    <h3 className="text-4xl text-[var(--primary)] font-bold">
+                    <h3 className="text-4xl text-center text-[var(--primary)] font-bold">
                     And That Was My First Time Seeing Revenue Come In From Organic Traffic
                     </h3>
 
                     <p className="text-black">
-                    <span className="font-semibold italic">After realizing that the secret to maximizing SEO results</span> was a spotless technical SEO foundation of a Shopify store, I started studying every single resource I could get my hands on.
+                    <span className="font-bold underline">After realizing that the secret to maximizing SEO results</span> was a spotless technical SEO foundation of a Shopify store, I started studying every single resource I could get my hands on.
                     </p>
 
                     <p className="text-black">
@@ -1109,11 +1090,11 @@ export default function LandingPage() {
 
                     <p className="text-black">Looking back, those first 2 years of trying to learn how to rank Shopify stores were brutal…</p>
 
-                    <p className="text-black">Late nights.</p>
+                    <p className="text-black font-bold">Late nights.</p>
 
-                    <p className="text-black">Hard work.</p>
+                    <p className="text-black font-bold">Hard work.</p>
 
-                    <p className="text-black">Stress.</p>
+                    <p className="text-black font-bold">Stress.</p>
 
                     <p className="text-black">I was working my ass off running my web design agency all day…</p>
 
@@ -1121,12 +1102,12 @@ export default function LandingPage() {
 
                     <p className="text-black">I barely slept, was constantly worrying “if SEO even works”, and the stress was almost unbearable.</p>
 
-                    <p className="text-black">That was my life and some days I was ready to quit and just run away.</p>
+                    <p className="text-black font-bold">That was my life and some days I was ready to quit and just run away.</p>
 
-                    <p className="text-black">But thankfully, I didn't...</p>
+                    <p className="text-black font-bold">But thankfully, I didn't...</p>
 
 {/* Shopify Seo Section */}
-                            <h2 className="text-4xl text-[var(--primary)] font-bold">
+                            <h2 className="text-4xl text-center text-[var(--primary)] font-bold">
                         Fast Forward To Today And It Almost Seems Like A Bad Dream
                         </h2>
 
@@ -1135,7 +1116,7 @@ export default function LandingPage() {
                         </p>
 
                         <p className="text-black">
-                        Instead of wasting a ton of time and money on outdated SEO strategies and useless backlinks, I focus on <span className="font-semibold">identifying and implementing proven technical SEO quick-wins</span>, that guarantee an increase in organic traffic and revenue.
+                        Instead of wasting a ton of time and money on outdated SEO strategies and useless backlinks, I focus on <span className="font-bold">identifying and implementing proven technical SEO quick-wins</span>, that guarantee an increase in organic traffic and revenue.
                         </p>
 
                         <p className="text-black">
@@ -1155,7 +1136,7 @@ export default function LandingPage() {
                         </p>
 
                         <p className="text-black">
-                        Unlike most <span className="font-semibold">“SEO gurus”</span> out there who constantly jump from one SEO strategy to another, just to try and stay relevant, I actually do what I preach, otherwise I’d be out of business.
+                        Unlike most <span className="font-bold">“SEO gurus”</span> out there who constantly jump from one SEO strategy to another, just to try and stay relevant, I actually do what I preach, otherwise I’d be out of business.
                         </p>
 
                         <p className="text-black">
@@ -1166,18 +1147,48 @@ export default function LandingPage() {
                         The next SEO strategy, the next ChatGPT prompt, and they waste so much time trying to find the next big thing, that they end up ignoring the basics and therefore limit themselves to mediocre SEO results.
                         </p>
 
-                        <p className="text-black italic font-semibold">
+                        <p className="text-black italic font-bold">
                         I did this for years, and it not only drove me crazy…
                         </p>
 
                         <p className="text-black">
                         It drove me to the point where I was ready to give up on SEO altogether because I was spending all my time and SEO budget on “strategies” and backlinks, instead of following a proven process, that was guaranteed to deliver results.
                         </p>
+                        <h2 className="text-4xl font-bold text-center text-[var(--primary)]">
+                           Wanna Know The Main Difference Between The Shopify SEO Checklist And The “SEO Strategies” By Gurus?
+                            </h2>
 
+                            <p className="text-black bg-[var(--primary)] ">
+The main difference is the focus.                        </p>
+
+                        <p className="text-black underline">
+                       With the Shopify SEO Checklist, you will have an exact roadmap...
+                        </p>
+
+                        <p className="text-black">
+                       A list of items, and tasks that you need to execute.
+                        </p>
+
+                        <p className="text-black">
+                        You take the guesswork out of SEO, and the only option for you to fail is if you do not execute the checklist items inside of the Shopify SEO Checklist.
+                        </p>
+                          <p className="text-black">
+                   You no longer need to obsess about how many backlinks you’re building…
+                        </p>
+
+                        <p className="text-black">
+You no longer need to worry about all the different SEO strategies you "should" be following…                        </p>
+                          <p className="text-black">
+                     You just need to identify all of the available SEO quick-wins using the Shopify SEO Checklist and implement them.
+                        </p>
+
+                        <p className="text-black">
+It’s as simple as that.                        </p>
+                            <img src="https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/cdd71822-ea12-4789-8db2-7cb365b7590b.png" alt="Graph showing traffic growth" className="w-10/12 mt-8 flex justify-center" />
 
                         {/* next sec */}
                     
-                             <h2 className="text-4xl font-bold text-[var(--primary)]">
+                             <h2 className="text-4xl font-bold text-center text-[var(--primary)]">
                             And The Results Of This New Way?
                             </h2>
 
@@ -1204,11 +1215,12 @@ export default function LandingPage() {
                             <div className="text-center">
                             <button className="bg-[var(--primary)] hover:opacity-90 text-white font-bold py-2 px-6 rounded shadow-md mt-6">
                                 Get The Checklist Now
+                                 <p className="text-xs text-white mt-1">Backed By Our 60-Day 100% Money Back Guarantee</p>
                             </button>
-                            <p className="text-xs text-black mt-1">Backed By Our 60-Day 100% Money Back Guarantee</p>
+                           
                             </div>
 
-                            <h3 className="text-4xl font-bold text-[var(--primary)]">
+                            <h3 className="text-4xl text-center font-bold text-[var(--primary)]">
                             Leading To A New Unfair Advantage...
                             </h3>
 
@@ -1224,7 +1236,7 @@ export default function LandingPage() {
                             But at the end of the day, a Shopify store is nothing other than a website, with almost the exact same elements as any other website on the internet.
                             </p>
 
-                            <p className="italic font-semibold">
+                            <p className="italic ">
                             My point?
                             </p>
 
@@ -1233,14 +1245,14 @@ export default function LandingPage() {
                             </p>
 
                             <p>
-                            <span className="font-semibold text-[var(--primary)]">You’ll develop the skill</span> to quickly and efficiently fix up a website and increase the number of visitors and revenue coming in on a daily basis.
+                            <span className="font-bold text-black">You’ll develop the skill</span> to quickly and efficiently fix up a website and increase the number of visitors and revenue coming in on a daily basis.
                             </p>
 
                             <p>
                             This is the exact reason why I own online businesses in the Shopify space, alongside other businesses such as SaaS, lead gen websites, and more!
                             </p>
 
-                            <p className="italic">
+                            <p className="font-bold">
                             The cool thing is that…
                             </p>
 
@@ -1249,9 +1261,9 @@ export default function LandingPage() {
                             </p>
 
                             <p>
-                            <span className="font-bold">But it’s much more than that…</span>
+                            <span className="">But it’s much more than that…</span>
                             </p>
-                            <h2 className="text-[var(--primary)] text-4xl font-bold">
+                            <h2 className="text-[var(--primary)] text-center text-4xl font-bold">
                             It’s Actually A Semi-Automated "Traffic Machine" That Allows You To Never Worry About Where Traffic And Sales Are Coming From…
                             </h2>
 
@@ -1259,13 +1271,13 @@ export default function LandingPage() {
 
                             <ul className="text-black list-disc list-inside space-y-2">
                             <li>
-                                <span className="text-[var(--primary)]">“SEO gurus” tell you all you need is the perfect keyword density and ON-Page SEO of a specific page</span>, just to get you to buy their SEO tool and see no increases in rankings.
+                                <span className="">“SEO gurus” tell you all you need is the perfect keyword density and ON-Page SEO of a specific page</span>, just to get you to buy their SEO tool and see no increases in rankings.
                             </li>
                             <li>
-                                <span className="text-[var(--primary)]">“SEO gurus” also say that you need to publish more content and rewrite existing articles</span>, as they might be outdated, without real proof to back up that statement.
+                                <span className="">“SEO gurus” also say that you need to publish more content and rewrite existing articles</span>, as they might be outdated, without real proof to back up that statement.
                             </li>
                             <li>
-                                <span className="text-[var(--primary)]">Or the one we’re all most familiar with… “SEO gurus” tell you that you just don’t have enough backlinks</span>, even though you’ve been investing in linkbuilding for months with no progress.
+                                <span className="">Or the one we’re all most familiar with… “SEO gurus” tell you that you just don’t have enough backlinks</span>, even though you’ve been investing in linkbuilding for months with no progress.
                             </li>
                             </ul>
 
@@ -1279,13 +1291,13 @@ export default function LandingPage() {
                             <p className="text-black">I am actively losing money by showing you this.</p>
                             <p className="text-black">And the other gurus out there are making loads of money by teaching the opposite of what I teach (except it doesn’t work).</p>
 
-                            <p className="text-black font-semibold">Ready for it?</p>
+                            <p className="text-black font-bold italic">Ready for it?</p>
 
-                            <h3 className="text-[var(--primary)] text-4xl font-bold">
+                            <h3 className="text-[var(--primary)] text-center text-4xl font-bold">
                             The #1 Mistake Everyone Makes Is Investing ALL Their SEO Budget Into Content & Linkbuilding, WITHOUT Having A Solid SEO Foundation
                             </h3>
 
-                            <p className="text-black font-semibold">Here’s why:</p>
+                            <p className="text-black font-bold underline">Here’s why:</p>
 
                             <p className="text-black">There are two types of SEOs out there…</p>
                             <ul className="text-black list-disc list-inside">
@@ -1321,8 +1333,8 @@ export default function LandingPage() {
                             <p className='text-black'>It's the fact that the model is incomplete, lacking the most essential part, which would dramatically improve the results of the SEO campaign.</p>
 
                            <p className='text-black'> And this is the same exact thing that happened to me before I figured out that all the best SEOs in the world are actually “ROI-focused SEOs”.</p>
-                            <p className='text-black font-bold'>The solution?</p>
-                             <h2 className="text-4xl text-[var(--primary)] font-bold">
+                            <p className='text-black font-bold underline'>The solution?</p>
+                             {/* <h2 className="text-4xl text-[var(--primary)] font-bold">
                     Wanna Know The Main Difference Between The Shopify SEO Checklist And The “SEO Strategies” By Gurus?
                     </h2>
 
@@ -1356,7 +1368,7 @@ export default function LandingPage() {
 
                     <p className="text-black">It’s as simple as that.</p>
 
-                    {/* Old vs New Strategy Grid */}
+                 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
                     <div>
                         <h3 className="text-black font-bold text-lg mb-4">The Old Way</h3>
@@ -1467,13 +1479,13 @@ export default function LandingPage() {
                             <p className='text-black'>It's the fact that the model is incomplete, lacking the most essential part, which would dramatically improve the results of the SEO campaign.</p>
 
                            <p className='text-black'> And this is the same exact thing that happened to me before I figured out that all the best SEOs in the world are actually “ROI-focused SEOs”.</p>
-                            <p className='text-black font-bold'>The solution?</p>
+                            <p className='text-black font-bold'>The solution?</p> */}
 
-                             <h2 className="text-[var(--primary)] text-4xl font-bold">
+                             <h2 className="text-[var(--primary)] text-center text-4xl font-bold">
                             Focus On Maximizing The ROI By Ensuring Your Shopify Store Has Flawless SEO Foundation To Build On
                             </h2>
 
-                            <p className="text-black italic font-semibold">That’s right…</p>
+                            <p className="text-black italic font-bold">That’s right…</p>
 
                             <p className="text-black">
                             Who in their right mind would invest so much time and money into content production and linkbuilding, just to get mediocre SEO results?
@@ -1489,7 +1501,7 @@ export default function LandingPage() {
 
                             <p className="text-black underline">No thanks. I did that before and it sucks.</p>
 
-                            <h3 className="text-black font-semibold">So here’s the deal…</h3>
+                            <h3 className="text-black font-bold">So here’s the deal…</h3>
 
                             <p className="text-black">
                             …I explain everything in the Shopify SEO Checklist, it’s a 135-point checklist that shows you everything you need to know.
@@ -1502,7 +1514,7 @@ export default function LandingPage() {
                             </button>
                             </div>
 
-                            <h3 className="text-[var(--primary)] text-4xl font-bold">
+                            <h3 className="text-[var(--primary)] text-center text-4xl font-bold">
                             Here’s The $25.000.000,00 Idea Behind The Shopify SEO Checklist
                             </h3>
 
@@ -1514,7 +1526,7 @@ export default function LandingPage() {
                             A few years ago Shopify stores could rely heavily on paid ads and still make a decent profit.
                             </p>
 
-                            <p className="text-black font-semibold">
+                            <p className="text-black font-bold">
                             But today, after the iOS 14 update and a never-ending increase in paid ad costs, most Shopify stores have seen a significant increase in their expenses and a significant decline in their overall profits and profit margins.
                             </p>
 
@@ -1528,8 +1540,8 @@ export default function LandingPage() {
 
                             <p className="text-black">And as you may have guessed it – I have it.</p>
 
-                            <p className="text-black font-semibold">
-                            <span className="underline">
+                            <p className="text-black ">
+                            <span className="underline font-bold">
                                 And what’s really cool
                             </span> is that once your Shopify store starts to rank on page 1 of Google, and bring in organic revenue, you actually get to keep 100% of the profit, as there is
                             <span className="font-bold"> no cost per click</span> with organic traffic.
@@ -1539,37 +1551,22 @@ export default function LandingPage() {
                             This alone makes SEO one of the highest long-term ROI sales channels available to any Shopify store today.
                             </p>
 
-                            <h3 className="text-[var(--primary)] text-4xl font-bold">
+                            <h3 className="text-[var(--primary)] text-center text-4xl font-bold">
                             That’s Right – You Can Have A Consistent Stream Of Revenue From SEO Without Having To Spend Thousands Of Dollars Every Single Month On Paid Media
                             </h3>
                              <p className="text-black">
                             And that’s where the Shopify SEO Checklist comes in…
                             </p>
 
-                            <p className="text-black font-semibold italic">
+                            <p className="text-black font-bold italic">
                             It does this beautifully in just 3 easy steps…
                             </p>
 
-                            {/* Process Steps */}
-                            <div className="bg-white p-6 rounded-lg space-y-4 text-black">
-                            <div className="flex items-center justify-between">
-                                <span>✅ Consistent Organic Traffic and Revenue</span>
-                            </div>
-                            <div className="flex items-center justify-between">
-                                <span>✅ Identify Available SEO Quick-Wins</span>
-                            </div>
-                            <div className="flex items-center justify-between">
-                                <span>✅ Implement SEO Quick-Wins With Provided Guides</span>
-                            </div>
-                            <div className="flex items-center justify-between">
-                                <span>✅ Publish The Changes & Wait For Google To Crawl</span>
-                            </div>
-                            <div className="flex items-center justify-between font-bold text-[var(--primary)]">
-                                <span>✅ 30-40% Increase in Shopify Organic Traffic and Revenue</span>
-                            </div>
+                            <div className='mt-8 flex justify-center'>
+                                <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0e5ea02e-ebac-45a8-ae3f-879485bac174.png'></img>
                             </div>
 
-                            <p className="text-black font-semibold italic">
+                            <p className="text-black font-bold underline italic">
                             And that’s the difference here.
                             </p>
 
@@ -1593,7 +1590,7 @@ export default function LandingPage() {
                             And if you’re not all about maximizing your return on investment, as a Shopify store owner or manager, then I don’t think you’ve got your priorities straight, and you should probably spend more time on that.
                             </p>
 
-                            <h3 className="text-[var(--primary)] text-4xl font-bold">
+                            <h3 className="text-[var(--primary)] text-4xl text-center font-bold">
                             And You Know What? I’ll Stake My Entire Reputation On This One Promise
                             </h3>
 
@@ -1623,7 +1620,7 @@ export default function LandingPage() {
 
                             <p className="text-black ">And I know how ridiculous and cliche that sounds…</p>
 {/* few years ago */}
-                         <h3 className="text-[var(--primary)] text-4xl font-bold">
+                         <h3 className="text-[var(--primary)] text-center text-4xl font-bold">
                             And Just A Few Years Ago... I’d Tell You That You’re Crazy If You’d Ever Believe Such A Strategy Existed...
                             </h3>
 
@@ -1633,7 +1630,7 @@ export default function LandingPage() {
                             Listen: I don’t care how many times you’ve tried to rank a Shopify store and increase its organic traffic and revenue.
                             </p>
 
-                            <p className="text-black font-semibold italic">I promise you this…</p>
+                            <p className="text-black font-bold italic">I promise you this…</p>
 
                             <p className="text-black">
                             Anyone can scale the organic traffic and revenue of their Shopify store with the right SEO strategy (more on this below)...
@@ -1641,18 +1638,18 @@ export default function LandingPage() {
 
                             <p className="text-black">Ultimately I want you to know one thing..</p>
 
-                            <h3 className="text-[var(--primary)] text-4xl font-bold">If I Can Do This, So Can You!</h3>
+                            <h3 className="text-[var(--primary)] text-center text-4xl font-bold">If I Can Do This, So Can You!</h3>
 
                             <p className="text-black">
                             Because over 1,000 Shopify Entrepreneurs & Managers are doing it right now within the Shopify SEO Community…
                             </p>
 
-                            <h3 className="text-[var(--primary)] text-4xl font-bold">And Here's Another Reason You Too Can Do This</h3>
+                            <h3 className="text-[var(--primary)] text-center text-4xl font-bold">And Here's Another Reason You Too Can Do This</h3>
 
-                            <p className="text-black font-semibold italic">
+                            <p className="text-black font-bold italic">
                             It took me MORE THAN 2 years to “figure this out”…
                             </p>
-                            <p className="text-black font-semibold italic">...and another 5 years to perfect it.</p>
+                            <p className="text-black font-bold italic">...and another 5 years to perfect it.</p>
 
                             <p className="text-black">
                             It is safe to say that there isn’t anything left for you to figure out. I already did all of the hard work for you.
@@ -1670,7 +1667,7 @@ export default function LandingPage() {
 
                             <p className="text-black">That’s it…</p>
 
-                            <h3 className="text-[var(--primary)] text-4xl font-bold">
+                            <h3 className="text-[var(--primary)] text-center text-4xl font-bold">
                             Here’s The Exact 5-Step System Revealed In The Shopify SEO Checklist For Increasing Your Shopify’s Organic Traffic And Revenue
                             </h3>
 
@@ -1697,8 +1694,8 @@ export default function LandingPage() {
 
                             <p className="text-black">All of this is revealed in the 115-point Shopify SEO Checklist in step-by-step detail.</p>
 
-                           <p className="text-black underline"> And that's not all, because...</p>
-                         <h2 className="text-[var(--primary)] text-4xl font-bold">
+                           <p className="text-black font-bold underline"> And that's not all, because...</p>
+                         <h2 className="text-[var(--primary)] text-4xl text-center font-bold">
                             Here's What Else You're Going To Discover In The Shopify SEO Checklist
                             </h2>
 
@@ -1708,7 +1705,7 @@ export default function LandingPage() {
                             <p className="text-black text-sm">
                                 (This Creates A Self Reinforcing Cycle, Higher CTRs Result In Higher Ranking Positions, Which Again Results In Higher CTRs, Etc...)
                             </p>
-                            <p className="text-[var(--primary)] font-semibold">All Explained In The Checklist, Row 43</p>
+                            <p className="text-black font-semibold">All Explained In The Checklist, Row 43</p>
                             <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f2673743-8694-48ff-957b-f8826fdacd53.png" alt="Example Google Listing" className="w-11/12 rounded-lg border border-gray-400" />
                             </div>
 
@@ -1718,7 +1715,7 @@ export default function LandingPage() {
                             <p className="text-black text-sm">
                                 (Bing Is Ignored By Almost Everyone, But It Can Still Drive A Lot Of Organic Revenue. It’s Something You Don’t Want To Miss Out On.)
                             </p>
-                            <p className="text-[var(--primary)] font-semibold">All Explained In The Checklist, Row 22</p>
+                            <p className="text-black font-semibold">All Explained In The Checklist, Row 22</p>
                             <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d67e35b-aea1-4807-9270-796901f5ce39.jpg" alt="Bing Analytics Dashboard" className="w-11/12 rounded-lg border border-gray-400" />
                             </div>
 
@@ -1729,7 +1726,7 @@ export default function LandingPage() {
                                 (Imagine Having A List Of All The Questions And Concerns Your Potential Customers Have In Every Phase Of Their Buying Journey. 
                                 Imagine How Much Of an Increase In Sales You’d See By Properly Addressing ALL Of Their Concerns).
                             </p>
-                            <p className="text-[var(--primary)] font-semibold">All Explained In The Checklist, Row 101</p>
+                            <p className="text-black font-semibold">All Explained In The Checklist, Row 101</p>
                             <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/f4a250b3-6b36-4745-b51d-c74d99e05e1d.png" alt="Silo Content Structure" className="w-11/12 rounded-lg border border-gray-400" />
                             </div>
                             {/* Section 1: Affiliate Recruiting */}
@@ -1738,7 +1735,7 @@ export default function LandingPage() {
                             <p className="text-black text-sm">
                                 (Thousands Of Affiliates Are Looking For Stores To Work With. By Leveraging SEO, You Can Position Your Shopify Store As The Perfect Affiliate Partner And Have An Affiliate Recruiting System Running On Autopilot)
                             </p>
-                            <p className="text-[var(--primary)] font-semibold">All Explained In The Checklist, Row 105</p>
+                            <p className="text-black font-semibold">All Explained In The Checklist, Row 105</p>
                             <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/b9f469ee-7ad1-4a73-b9a0-214281f82b39.png" alt="Affiliate Programs SERP" className="w-11/12 rounded-lg border border-gray-400" />
                             </div>
 
@@ -1748,7 +1745,7 @@ export default function LandingPage() {
                             <p className="text-black text-sm">
                                 (YouTube Has Just As Much Search Volume As Google, Position Your Shopify Store Properly And You Can EASILY Double Your Current Organic Reach & Revenue.)
                             </p>
-                            <p className="text-[var(--primary)] font-semibold">All Explained In The Checklist, Row 102</p>
+                            <p className="text-black font-semibold">All Explained In The Checklist, Row 102</p>
                             <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8f7d7934-defb-4b38-8c4a-99810ec476df.png" alt="YouTube Video Results" className="w-11/12 rounded-lg border border-gray-400" />
                             </div>
 
@@ -1758,7 +1755,7 @@ export default function LandingPage() {
                             <p className="text-black text-sm">
                                 (Let’s Face It, Your Competitors Will Always Play Dirty. While I Don’t Suggest Doing Negative SEO Attacks On Your Competitor’s Shopify Stores, It’s In Your Best Interest To Protect Your Own Rankings. The System I Will Share With You Makes This Easy.)
                             </p>
-                            <p className="text-[var(--primary)] font-semibold">All Explained In The Checklist, Row 87</p>
+                            <p className="text-black font-semibold">All Explained In The Checklist, Row 87</p>
                             <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/56be2c1a-b913-46d8-8f7a-780c23908fe2.jpeg" alt="Organic Traffic Protection" className="w-11/12 rounded-lg border border-gray-400" />
                             </div>
                             <div className="space-y-2">
@@ -1768,7 +1765,7 @@ export default function LandingPage() {
                             <p className="text-sm">
                                 (If You Ship To Multiple Countries, And Have Built Out A Profitable SEO Strategy In Your Main Market, You Can Leverage Your Existing Content To Rapidly Scale And Rank In International Markets).
                             </p>
-                            <p className="text-[var(--primary)] font-semibold">All Explained In The Checklist, Row 120</p>
+                            <p className="text-black font-semibold">All Explained In The Checklist, Row 120</p>
                             <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/8ef76219-7c6c-486d-aa5d-cd665168f1d7.jpeg" alt="International SEO Chart" className="w-11/12 rounded-lg border border-gray-400" />
                             </div>
 
@@ -1782,12 +1779,12 @@ export default function LandingPage() {
                             </p>
 
                             {/* On-Page SEO Mastery */}
-                            <h2 className="text-[var(--primary)] font-bold text-4xl">
+                            <h2 className="text-[var(--primary)] text-center font-bold text-4xl">
                             Plus I'm Going To Give You A Shopify ON-Page SEO Mastery
                             </h2>
-
-                            <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify On-Page SEO Guide" className="w-60 rounded shadow-lg" />
-
+                            <div className="mt-8 flex justify-center">
+                            <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify On-Page SEO Guide" className="w-full rounded shadow-lg" />
+                                    </div>
                             <p>
                             As a Shopify store, the pages with the most potential to generate additional revenue for your business are ultimately your homepage, collection, and product pages.
                             </p>
@@ -1805,7 +1802,7 @@ export default function LandingPage() {
                             </p>
 
                             {/* No Catch Section */}
-                            <h3 className="text-[var(--primary)] font-bold text-4xl">
+                            <h3 className="text-[var(--primary)] text-center font-bold text-4xl">
                             And Before You Download The Shopify SEO Checklist...I Want You To Know That There's No Catch!
                             </h3>
 
@@ -1813,9 +1810,9 @@ export default function LandingPage() {
 
                             <p>And you’re probably wondering:</p>
 
-                            <blockquote className="italic pl-4 border-l-4 border-[var(--primary)] text-sm">
-                            “If you’re doing so well with this, why would you give it away for next to nothing?”
-                            </blockquote>
+                            <p className="italic pl-4  ">
+                            “If you’re doing so well with this, why would you give it away for next to nothing?”...
+                            </p>
 
                             <p><strong>So there has to be a “catch”...</strong></p>
 
@@ -1839,9 +1836,9 @@ export default function LandingPage() {
                                      {/* won't last long */}
 
                              {/* Urgency Heading */}
-                            <h2 className="text-[var(--primary)] font-bold text-4xl">This Won’t Last Long</h2>
+                            <h2 className="text-[var(--primary)] text-center font-bold text-4xl">This Won’t Last Long</h2>
 
-                            <p><em>The truth is…</em></p>
+                            <p className='underline'><em>The truth is…</em></p>
 
                             <p>
                             <strong>I was planning on selling this checklist for $97</strong>, but that meant I wouldn’t be able to reach as many people, which would beat the entire point of me sharing this checklist with you.
@@ -1856,13 +1853,13 @@ export default function LandingPage() {
                             </p>
 
                             {/* Price Justification */}
-                            <h3 className="text-[var(--primary)] font-bold text-4xl">
+                            <h3 className="text-[var(--primary)] text-center font-bold text-4xl">
                             By Lowering The Price To $27 I’m Able To Maximize The Number Of People I Impact And Help Scale Their Shopify Organic Traffic And Revenue.
                             </h3>
 
-                            <p>I consider that a true win/win…</p>
+                            <p className='font-bold'> I consider that a true win/win…</p>
 
-                            <p>
+                            <p  className='font-bold'>
                             Also in most cases, I expect to take a loss when selling the checklist at this price.
                             </p>
 
@@ -1883,12 +1880,12 @@ export default function LandingPage() {
                             <p>Anyway - with all of that said, this is a limited offer.</p>
 
                             {/* Bonus Offer: SEO Vault */}
-                            <h3 className="text-[var(--primary)] font-bold text-4xl">
+                            <h3 className="text-[var(--primary) text-center font-bold text-4xl">
                             You’re Also Getting GoldenWeb’s Shopify SEO Vault
                             </h3>
-
-                            <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify SEO Vault Bonus" className="w-60 rounded shadow-lg" />
-
+                            <div className="mt-8 flex justify-center">
+                            <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png" alt="Shopify SEO Vault Bonus" className="w-full rounded shadow-lg" />
+                                    </div>
                             <p>
                             Over the years my team and I have generated over $25MM in additional revenue for Shopify stores, all from SEO and organic traffic.
                             </p>
@@ -1905,7 +1902,7 @@ export default function LandingPage() {
                             <p className='text-black'>I want you to have this as my gift for checking out the checklist.</p>
 
                             {/* Bonus Heading */}
-                            <h2 className="text-[var(--primary)] font-bold text-4xl">
+                            <h2 className="text-[var(--primary)] text-center font-bold text-4xl">
                             Plus I’m Also Including These Amazing Bonuses Valued At $625
                             </h2>
 
@@ -1915,11 +1912,11 @@ export default function LandingPage() {
                                 <span className="text-[var(--primary)] text-xl">✔</span>
                                 <p className="font-semibold">Preferred Shopify Themes for SEO</p>
                             </div>
-                            <img
+                            <div className="mt-8 flex justify-center"><img
                                 src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/a94da2b5-949f-496c-8899-8a7b71efd514.png"
                                 alt="Best Shopify Themes for SEO"
-                                className="w-64 rounded shadow-lg"
-                            />
+                                className="w-full rounded shadow-lg"
+                            /></div>
                             </div>
 
                             {/* Bonus 2: Community Access */}
@@ -1928,11 +1925,11 @@ export default function LandingPage() {
                                 <span className="text-[var(--primary)] text-xl">✔</span>
                                 <p className="font-semibold">Shopify SEO Community Access</p>
                             </div>
-                            <img
+                            <div className="mt-8 flex justify-center"><img
                                 src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/33e92ec3-147a-48b2-8eec-9f48bc9693cb.png"
                                 alt="Access to Shopify SEO Community"
-                                className="w-64 rounded shadow-lg"
-                            />
+                                className="w-full rounded shadow-lg"
+                            /></div>
                             </div>
 
                             {/* Money-back assurance */}
@@ -1942,11 +1939,84 @@ export default function LandingPage() {
                             <p>Of course, there’s a money-back guarantee.</p>
                             <p>In fact, I believe it’s …</p>
                             </div>
+                            </div>
+                            <div className='bg-black p-4'>
+                            <div className="max-w-4xl  mx-auto text-white space-y-8">
+
+                            {/* Money-Back Header */}
+                            <div className="space-y-2 max-w-4xl text-center">
+                            <p className="bg-[var(--primary)] text-slate-900 font-semibold py-4">
+                                The BEST Money-Back Guarantee In The World
+                            </p>
+                            <h2 className="text-white font-bold text-lg">Here's the world's best guarantee.</h2>
+                            <p>I know that before I get into anything...</p>
+                            <p>...I’d like to know what I’m buying and that it’s backed by a solid money-back guarantee.</p>
+                            <p>And I want you to be <strong>comfortable</strong> with this buy.</p>
+                            <p>And even though it’s only $27...</p>
+                            <p>Like my grandpa used to say “Test drive the car before you drive it off the lot”...</p>
+                            </div>
+
+                            {/* Guarantee Details */}
+                            <div className="space-y-4 text-xl">
+                            <p>So here’s what I’ve arranged:</p>
+                            <p>
+                                Download the <strong>Shopify SEO Checklist</strong>, read it out, but more importantly apply what you learn in there.
+                            </p>
+                            <p>
+                                And if you’re not blown away by what you learn, or the results you’re <strong>ABLE</strong> to generate if you actually implement what I suggest…
+                            </p>
+                            <p>
+                                Then just shoot me an email and request a refund <strong>within 60 days</strong>.
+                            </p>
+                            <p>
+                                We’ll refund you your $27 and let you keep the Shopify SEO Checklist <strong>free of charge</strong>.
+                            </p>
+                            <p>How’s that for the <strong>world’s best money back guarantee</strong>? I’d say pretty good!</p>
+                            </div>
+                            </div>
+                                    </div>
+                            {/* Limited Time Offer Notice */}
+                            <div className="bg-[var(--primary)] text-lg text-slate-900 font-semibold text-center py-4 m-5 ">
+                            This is a limited offer that will only be available for a short period of time.
+                            </div>
+
+                            {/* Image of Checklist + Bonuses */}
+                            <div className="mt-8 flex justify-center">
+                            <img
+                                src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png"
+                                alt="Shopify SEO Checklist Bundle"
+                                className="w-full rounded shadow-lg"
+                            />
+                            </div>
+
+                            {/* Offer Breakdown */}
+                            <div className="text-center space-y-4">
+                            <h3 className="text-black font-bold text-4xl">ONLY $27 TODAY</h3>
+                            <p className="text-black text-2xl font-semibold">(Save $70 Today)</p>
+                            <p className="text-black text-xl" >Download The Checklist and 5 Bonuses for <s>$97</s> Just $27! Delivered instantly. Start learning in the next 2 minutes.</p>
+                            </div>
+
+                            {/* CTA Section */}
+                            <div className="bg-[var(--primary)] text-white text-2xl text-center font-bold py-4 rounded">
+                            Get The Checklist Now
+                            <p className="text-sm  font-medium">Backed by Our 60-Day 100% Money Back Guarantee</p>
+                            </div>
+
+                            {/* Final Note */}
+                            <p className="text-xl text-black  pt-4">
+                            I’ll talk to you in our private FB Group that you’ll get instant access to as soon as you download your copy of the Shopify SEO Checklist.
+                            </p>
+                            <p className="text-xl text-black ">Until then, to your success,<br /><strong>Benjamin Golden</strong></p>
                             
-
-
-
-                        </div>
+                     <p className="text-xl text-black font-bold  pt-4">
+                            P.S. Remember, the Shopify SEO Checklist comes with The BEST Money-Back Guarantee In The World.
+                            </p>
+ <p className="text-xl text-black  pt-4">
+Download it, read it, implement it, get results. 
+                            </p>
+                             <p className="text-xl text-black  pt-4">
+And if you’re not happy for any reason (and I mean ANY reason) - just let me know and we’ll refund you your $27.</p>
+                        
                         </div>
                             
 
@@ -2356,12 +2426,13 @@ export default function LandingPage() {
                        
                         </section>
  </div>
+ 
 
-                    <section className="bg-slate-900 py-13 px-4 ">
+                    {/* <section className="bg-slate-900 py-13 px-4 ">
                         <div className="max-w-4xl mx-auto text-white space-y-8">
 
                             {/* Money-Back Header */}
-                            <div className="space-y-2 max-w-4xl text-center">
+                            {/* <div className="space-y-2 max-w-4xl text-center">
                             <p className="bg-[var(--primary)] text-slate-900 font-semibold py-4">
                                 The BEST Money-Back Guarantee In The World
                             </p>
@@ -2371,10 +2442,10 @@ export default function LandingPage() {
                             <p>And I want you to be <strong>comfortable</strong> with this buy.</p>
                             <p>And even though it’s only $27...</p>
                             <p>Like my grandpa used to say “Test drive the car before you drive it off the lot”...</p>
-                            </div>
+                            </div> */}
 
                             {/* Guarantee Details */}
-                            <div className="space-y-4">
+                            {/* <div className="space-y-4">
                             <p>So here’s what I’ve arranged:</p>
                             <p>
                                 Download the <strong>Shopify SEO Checklist</strong>, read it out, but more importantly apply what you learn in there.
@@ -2389,43 +2460,43 @@ export default function LandingPage() {
                                 We’ll refund you your $27 and let you keep the Shopify SEO Checklist <strong>free of charge</strong>.
                             </p>
                             <p>How’s that for the <strong>world’s best money back guarantee</strong>? I’d say pretty good!</p>
-                            </div>
+                            </div> */}
 
-                            {/* Limited Time Offer Notice */}
+                            {/* Limited Time Offer Notice
                             <div className="bg-[var(--primary)] text-slate-900 font-semibold text-center py-2 rounded">
                             This is a limited offer that will only be available for a short period of time.
-                            </div>
+                            </div> */}
 
                             {/* Image of Checklist + Bonuses */}
-                            <div className="flex justify-center">
+                            {/* <div className="flex justify-center">
                             <img
                                 src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png"
                                 alt="Shopify SEO Checklist Bundle"
                                 className="w-80 rounded shadow-lg"
                             />
-                            </div>
+                            </div> */}
 
                             {/* Offer Breakdown */}
-                            <div className="text-center space-y-4">
+                            {/* <div className="text-center space-y-4">
                             <h3 className="text-white font-bold text-xl">ONLY $27 TODAY</h3>
                             <p className="text-[var(--primary)] font-semibold">(Save $70 Today)</p>
                             <p>Download The Checklist and 5 Bonuses for <s>$97</s> Just $27! Delivered instantly. Start learning in the next 2 minutes.</p>
-                            </div>
+                            </div> */}
 
                             {/* CTA Section */}
-                            <div className="bg-[var(--primary)] text-slate-900 text-center font-bold py-4 rounded">
+                            {/* <div className="bg-[var(--primary)] text-slate-900 text-center font-bold py-4 rounded">
                             Get The Checklist Now
                             <p className="text-sm font-medium">Backed by Our 60-Day 100% Money Back Guarantee</p>
-                            </div>
+                            </div> */}
 
                             {/* Final Note */}
-                            <p className="text-sm text-center pt-4">
+                            {/* <p className="text-sm text-center pt-4">
                             I’ll talk to you in our private FB Group that you’ll get instant access to as soon as you download your copy of the Shopify SEO Checklist.
                             </p>
                             <p className="text-sm text-center">Until then, to your success,<br /><strong>Benjamin Golden</strong></p>
                             
-                        </div>
-                    </section>
+                        </div> */}
+                    {/* </section> */} 
 
 
 
