@@ -49,7 +49,7 @@ const FutureShopify = ({ personalStory }) => {
                         <div className="bg-slate-900 text-white text-lg font-bold text-center py-4 uppercase">
                          Frequently Asked Questions
                         </div>
-                        <div className=" p-4 rounded-md  text-slate-900 flex items-start gap-3">
+                        <div className="  rounded-md  text-slate-900 flex items-start gap-3">
                             <span className="text-2xl">❓</span>
                             <div>
                                 <p className="font-bold">Who is this for?</p>
@@ -58,7 +58,7 @@ const FutureShopify = ({ personalStory }) => {
                                 </p>
                             </div>
                         </div>
-                        <div className="p-4 rounded-md  text-slate-900 flex items-start gap-3">
+                        <div className=" rounded-md  text-slate-900 flex items-start gap-3">
                             <span className="text-2xl">❓</span>
                             <div>
                                 <p className="font-bold">What is the Shopify SEO Checklist?</p>
@@ -67,7 +67,7 @@ const FutureShopify = ({ personalStory }) => {
                                 </p>
                             </div>
                         </div>
-                        <div className=" p-4 rounded-md  text-slate-900 flex items-start gap-3">
+                        <div className="  rounded-md  text-slate-900 flex items-start gap-3">
                             <span className="text-2xl">❓</span>
                             <div>
                                 <p className="font-bold">I want this, what exactly am I getting?</p>
@@ -76,7 +76,7 @@ const FutureShopify = ({ personalStory }) => {
                                 </p>
                             </div>
                         </div>
-                        <div className=" p-4 rounded-md  text-slate-900 flex items-start gap-3">
+                        <div className="  rounded-md  text-slate-900 flex items-start gap-3">
                             <span className="text-2xl">❓</span>
                             <div>
                                 <p className="font-bold">How is this different than all the other stuff out there?</p>
@@ -86,7 +86,7 @@ const FutureShopify = ({ personalStory }) => {
                             </div>
                         </div>
 
-                        <div className=" p-4 rounded-md  text-slate-900 flex items-start gap-3">
+                        <div className="  rounded-md  text-slate-900 flex items-start gap-3">
                             <span className="text-2xl">❓</span>
                             <div>
                                 <p className="font-bold">Do you offer more in depth help?</p>
@@ -95,7 +95,7 @@ const FutureShopify = ({ personalStory }) => {
                                 </p>
                             </div>
                         </div>
-                        <div className="p-4 rounded-md  text-slate-900 flex items-start gap-3">
+                        <div className=" rounded-md  text-slate-900 flex items-start gap-3">
                             <span className="text-2xl">❓</span>
                             <div>
                                 <p className="font-bold">Is there a guarantee?</p>
@@ -380,8 +380,8 @@ const FutureShopify = ({ personalStory }) => {
                         ))}
                         <hr className="border-slate-600 my-10" />
                         {/* Top Button */}
-                        
-                        <div className="bg-slate-900 text-white text-lg font-bold text-center py-3 uppercase">
+                        <div className="sticky top-8">
+                        <div className="bg-slate-900  text-white text-lg font-bold text-center py-3 uppercase">
                           Download the Shopify SEO Checklist
                         </div>
 
@@ -418,6 +418,7 @@ const FutureShopify = ({ personalStory }) => {
                                 Backed by Our 60-Day 100% Money Back Guarantee
                             </div>
                         </button>
+                        </div>
                     </div>
                 </div>
 

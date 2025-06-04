@@ -178,7 +178,7 @@ export default function LandingPage() {
                             ></iframe>
                         </div>
                         <div className="text-center mt-1">
-                            <button className="bg-[var(--primary)] text-slate-800 font-semibold px-6 py-3 rounded-md shadow-md">
+                            <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md shadow-md">
                                 Get The Checklist Now<br />
                                 <span className="text-sm block mt-1 font-normal">
                                     Backed by Our 60-Day 100% Money Back Guarantee
@@ -260,7 +260,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="mt-8 flex justify-center">
-                            <img src='https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/ddde26a9-ab31-42e0-902b-9cd6f0624140.png' className='h-120 w-90'></img>
+                            <img src='https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/ddde26a9-ab31-42e0-902b-9cd6f0624140.png' className='w-full'></img>
 
                         </div>
 
@@ -569,7 +569,7 @@ export default function LandingPage() {
                 <img src={bundle.image} alt="bundle" className="mx-auto rounded-lg mb-6 max-w-md w-full" /> */}
                 <h2 className="text-5xl font-bold mb-2 text-[var(--primary)]">Here's Everything You're Getting For Only $27 Today</h2>
                 <div className='mt-8 flex justify-center'>
-                <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png' alt="bundle" className="mx-auto rounded-lg mb-6 max-w-5xl w-full" /></div>
+                <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png' alt="bundle" className="mx-auto rounded-lg mb-6 max-w-7xl w-full" /></div>
                 <div className="flex justify-center">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full mt-12">
     {/* First 3 cards in row */}
@@ -666,11 +666,11 @@ export default function LandingPage() {
     <img
       src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/66af7ac48899dcc5168ee05b.webp"
       alt="Checklist Preview"
-      className="rounded-lg  w-full max-w-4xl"
+      className="rounded-lg  w-full max-w-7xl"
     />
   </div>
   <div className="text-center mt-1">
-                            <button className="bg-[var(--primary)] text-slate-800 font-semibold px-6 py-3 rounded-md shadow-md">
+                            <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md shadow-md">
                                 Get The Checklist Now<br />
                                 <span className="text-sm block mt-1 font-normal">
                                     Backed by Our 60-Day 100% Money Back Guarantee
