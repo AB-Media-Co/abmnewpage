@@ -682,10 +682,10 @@ export default function LandingPage() {
 
             {/* Bonuses */}
             <section className="bg-slate-800 py-16 px-4">
-                <div className="max-w-4xl mx-auto text-center mb-12">
+                <div className="max-w-5xl mx-auto text-center mb-12">
                     <h2 className="text-4xl font-bold mb-4"><span className="text-[var(--primary)]">You’re Also Getting...</span></h2>
                 </div>
-                <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-12">
+                <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12">
                     {bonuses.map((b, i) => (
                         <div key={i} className="bg-slate-700 rounded-md p-4 text-center">
                             <img src={b.img} alt={b.title} className="mx-auto mb-4 rounded w-full max-w-xs" />
@@ -694,11 +694,15 @@ export default function LandingPage() {
                         </div>
                     ))}
                 </div>
-                <div className="mt-8">
-                    <button className="bg-[var(--primary)] hover:bg-[var(--dark-primary)] text-white font-semibold py-4 px-8 rounded-lg transition block mx-auto">
-                        Get The Checklist Now
-                    </button>
-                </div>
+                <div className="text-center mt-1">
+                            <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md shadow-md">
+                                Get The Checklist Now<br />
+                                <span className="text-sm block mt-1 font-normal">
+                                    Backed by Our 60-Day 100% Money Back Guarantee
+                                </span>
+                            </button>
+                        </div>
+
 
             </section>
 
@@ -778,14 +782,15 @@ export default function LandingPage() {
                     </div>
 
                     {/* CTA Button */}
-                    <div className="mt-8">
-                        <button className="bg-[var(--primary)] text-white font-bold py-3 px-8 rounded shadow hover:brightness-110 transition">
-                            Get The Checklist Now
-                        </button>
-                        <p className="text-sm mt-2 text-[var(--primary)]">
-                            Backed by Our 60 Day 100% Money Back Guarantee
-                        </p>
-                    </div>
+                    <div className="text-center mt-1">
+                            <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md shadow-md">
+                                Get The Checklist Now<br />
+                                <span className="text-sm block mt-1 font-normal">
+                                    Backed by Our 60-Day 100% Money Back Guarantee
+                                </span>
+                            </button>
+                        </div>
+
                 </div>
             </section>
 
