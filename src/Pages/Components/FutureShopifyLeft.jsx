@@ -619,7 +619,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                     Wanna Know The Main Difference Between The Shopify SEO Checklist And The “SEO Strategies” By Gurus?
                 </h2>
 
-                <p className="text-white p-2 bg-[var(--primary)] ">
+                <p className="text-white p-2 bg-[var(--primary)] italic font-semibold">
                     The main difference is the focus.                        </p>
 
                 <p className="text-black underline">
@@ -1451,7 +1451,7 @@ You just need to identify all of the available SEO quick-wins using the Shopify 
                 </div>
             </div>
             {/* Limited Time Offer Notice */}
-            <div className="bg-[var(--primary)] text-lg text-slate-900 font-semibold text-center py-4 m-5 ">
+            <div className="bg-[var(--primary)] text-lg text-white font-semibold text-center py-4 m-5 ">
                 This is a limited offer that will only be available for a short period of time.
             </div>
 
