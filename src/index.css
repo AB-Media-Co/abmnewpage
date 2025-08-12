@@ -12,3 +12,7 @@
 .fill-primary {
   fill: var(--primary);
 }
+
+button{
+  cursor: pointer;
+}
