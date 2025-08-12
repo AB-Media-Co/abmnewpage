@@ -530,37 +530,20 @@ export default function LandingPage() {
                 </section> */}
 
                 {/* Personal Story */}
-                </div>
-                <section className="bg-slate-100 py-10 px-6">
-                    <div className="max-w-6xl mx-auto text-center">
-                        <h2 className="text-5xl font-bold mb-6">
-                            {personalStory.headingParts.map((p, i) => (<span key={i} className={i % 2 ? 'text-[var(--primary)] underline' : 'text-black'}>{p}</span>))}
-                        </h2>
-                        <p className="text-xl text-black ">{personalStory.intro}</p>
-                        {/* Letter */}
+            </div>
+            <section className="bg-slate-100 py-10 px-6">
+                <div className="max-w-6xl mx-auto text-center">
+                    <h2 className="text-5xl font-bold mb-6">
+                        {personalStory.headingParts.map((p, i) => (<span key={i} className={i % 2 ? 'text-[var(--primary)] underline' : 'text-black'}>{p}</span>))}
+                    </h2>
+                    <p className="text-xl text-black ">{personalStory.intro}</p>
+                    {/* Letter */}
 
-                    </div>
-                </section>
-            
+                </div>
+            </section>
+
             {/* Completely Unknown  */}
-           <FutureShopify personalStory={personalStory}/>
-
-
-
-
-            {/* Quick-Wins */}
-            {/* <section className="container mx-auto px-4 py-16">
-                <h2 className="text-3xl font-bold text-center mb-8">The SEO Quick-Wins Inside The Shopify SEO Checklist</h2>
-                <div className="bg-slate-800 p-8 rounded-lg max-w-3xl mx-auto">
-                    {quickWins.map((win, i) => (
-                        <div key={i} className="flex items-start gap-3 mb-4">
-                            <Check className="w-5 h-5 text-[var(--primary)] flex-shrink-0 mt-1" />
-                            <p className="text-black">{win}</p>
-                        </div>
-                    ))}
-                </div>
-            </section> */}
-
+            <FutureShopify personalStory={personalStory} />
 
 
             {/* Bundle & Features */}
@@ -569,83 +552,83 @@ export default function LandingPage() {
                 <img src={bundle.image} alt="bundle" className="mx-auto rounded-lg mb-6 max-w-md w-full" /> */}
                 <h2 className="text-5xl font-bold mb-2 text-[var(--primary)]">Here's Everything You're Getting For Only $27 Today</h2>
                 <div className='mt-8 flex justify-center'>
-                <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png' alt="bundle" className="mx-auto rounded-lg mb-6 max-w-7xl w-full" /></div>
+                    <img src='https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec252fadecf18a947c.png' alt="bundle" className="mx-auto rounded-lg mb-6 max-w-7xl w-full" /></div>
                 <div className="flex justify-center">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full mt-12">
-    {/* First 3 cards in row */}
-    {[
-      {
-        img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec6a58c47ebb1454a4.png',
-        title: 'Shopify SEO Checklist',
-        desc: '115-point checklist where you learn my whole Shopify SEO system.',
-      },
-      {
-        img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png',
-        title: 'Shopify ON-Page SEO Mastery',
-        desc: 'Learn the exact step-by-step process to optimize ON-Page SEO of any page and dominate your target keyword.',
-      },
-      {
-        img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0241c25b-0f47-4b06-a02a-8043e51c436f.png',
-        title: 'GoldenWeb’s Shopify SEO Vault',
-        desc: 'See the exact behind-the-scenes processes of scaling Shopify stores with organic traffic, plus breakdowns of our biggest case studies.',
-      },
-    ].map((item, idx) => (
-      <div
-        key={idx}
-        className="bg-slate-200 rounded-md shadow-md p-4 text-center"
-      >
-        <div className="text-white bg-[var(--primary)] p-3 text-xs font-bold uppercase mb-2">
-          Included with your order
-        </div>
-        <img src={item.img} alt={item.title} className="mx-auto mb-4 max-h-24" />
-        <h4 className="text-black font-semibold mb-1">{item.title}</h4>
-        <p className="text-gray-600 text-sm">{item.desc}</p>
-      </div>
-    ))}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl w-full mt-12">
+                        {/* First 3 cards in row */}
+                        {[
+                            {
+                                img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/679202ec6a58c47ebb1454a4.png',
+                                title: 'Shopify SEO Checklist',
+                                desc: '115-point checklist where you learn my whole Shopify SEO system.',
+                            },
+                            {
+                                img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/6d64f20f-8dd8-4e95-bc0d-599d7069f869.png',
+                                title: 'Shopify ON-Page SEO Mastery',
+                                desc: 'Learn the exact step-by-step process to optimize ON-Page SEO of any page and dominate your target keyword.',
+                            },
+                            {
+                                img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/0241c25b-0f47-4b06-a02a-8043e51c436f.png',
+                                title: 'GoldenWeb’s Shopify SEO Vault',
+                                desc: 'See the exact behind-the-scenes processes of scaling Shopify stores with organic traffic, plus breakdowns of our biggest case studies.',
+                            },
+                        ].map((item, idx) => (
+                            <div
+                                key={idx}
+                                className="bg-slate-200 rounded-md shadow-md p-4 text-center"
+                            >
+                                <div className="text-white bg-[var(--primary)] p-3 text-xs font-bold uppercase mb-2">
+                                    Included with your order
+                                </div>
+                                <img src={item.img} alt={item.title} className="mx-auto mb-4 max-h-24" />
+                                <h4 className="text-black font-semibold mb-1">{item.title}</h4>
+                                <p className="text-gray-600 text-sm">{item.desc}</p>
+                            </div>
+                        ))}
 
-    {/* Wrap last 2 cards inside a centered flex container that spans all columns */}
-    <div className="lg:col-span-3 flex justify-center gap-6">
-      {[
-        {
-          img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/a94da2b5-949f-496c-8899-8a7b71efd514.png',
-          title: 'Preferred Shopify Themes for SEO',
-          desc: 'You’ll be able to get the proven SEO themes I’ve used to hit the ground and start ranking.',
-        },
-        {
-          img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/33e92ec3-147a-48b2-8eec-9f48bc9693cb.png',
-          title: 'Shopify SEO Community Access',
-          desc: 'Get among like-minded people on a similar mission as you — exclusive access ONLY to those who buy the checklist!',
-        },
-      ].map((item, idx) => (
-        <div
-          key={idx}
-          className="bg-slate-200 rounded-md shadow-md p-4 text-center w-full max-w-sm"
-        >
-          <div className="text-white bg-[var(--primary)] p-3 text-xs font-bold uppercase mb-2">
-            Included with your order
-          </div>
-          <img src={item.img} alt={item.title} className="mx-auto mb-4 max-h-24" />
-          <h4 className="text-black font-semibold mb-1">{item.title}</h4>
-          <p className="text-gray-600 text-sm">{item.desc}</p>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
-<div className="text-center mt-6">
-                            <button className="bg-[var(--primary)] text-white font-semibold px-57 py-3 rounded-md shadow-md">
-                                Get The Checklist Now<br />
-                                <span className="text-sm block mt-1 font-normal">
-                                    Backed by Our 60-Day 100% Money Back Guarantee
-                                </span>
-                            </button>
+                        {/* Wrap last 2 cards inside a centered flex container that spans all columns */}
+                        <div className="lg:col-span-3 flex justify-center gap-6">
+                            {[
+                                {
+                                    img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/a94da2b5-949f-496c-8899-8a7b71efd514.png',
+                                    title: 'Preferred Shopify Themes for SEO',
+                                    desc: 'You’ll be able to get the proven SEO themes I’ve used to hit the ground and start ranking.',
+                                },
+                                {
+                                    img: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/33e92ec3-147a-48b2-8eec-9f48bc9693cb.png',
+                                    title: 'Shopify SEO Community Access',
+                                    desc: 'Get among like-minded people on a similar mission as you — exclusive access ONLY to those who buy the checklist!',
+                                },
+                            ].map((item, idx) => (
+                                <div
+                                    key={idx}
+                                    className="bg-slate-200 rounded-md shadow-md p-4 text-center w-full max-w-sm"
+                                >
+                                    <div className="text-white bg-[var(--primary)] p-3 text-xs font-bold uppercase mb-2">
+                                        Included with your order
+                                    </div>
+                                    <img src={item.img} alt={item.title} className="mx-auto mb-4 max-h-24" />
+                                    <h4 className="text-black font-semibold mb-1">{item.title}</h4>
+                                    <p className="text-gray-600 text-sm">{item.desc}</p>
+                                </div>
+                            ))}
                         </div>
-                        <span className="text-lg block text-black mt-1 font-normal">
-                                   Read the checklist directly on your computer, phone, or tablet and start implementing right away.
-                                </span>
+                    </div>
+                </div>
+                <div className="text-center mt-6">
+                    <button className="bg-[var(--primary)] text-white font-semibold px-57 py-3 rounded-md shadow-md">
+                        Get The Checklist Now<br />
+                        <span className="text-sm block mt-1 font-normal">
+                            Backed by Our 60-Day 100% Money Back Guarantee
+                        </span>
+                    </button>
+                </div>
+                <span className="text-lg block text-black mt-1 font-normal">
+                    Read the checklist directly on your computer, phone, or tablet and start implementing right away.
+                </span>
 
 
-                
+
                 {/* <p className="italic mb-4">(Save ${bundle.saving} Today)</p>
                 <p className="mb-6">{bundle.description}</p>
                 <button className="bg-slate-900 hover:bg-slate-800 text-white font-semibold py-4 px-8 rounded-lg mb-6 transition">{bundle.cta}</button>
@@ -659,25 +642,25 @@ export default function LandingPage() {
                     ))}
                 </div> */}
                 <div className="mt-16">
-  <h3 className="text-4xl text-center font-bold text-[var(--primary)] mb-8">
-    Here's A Sneak Peek Of What's Inside The Checklist
-  </h3>
-  <div className="flex justify-center">
-    <img
-      src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/66af7ac48899dcc5168ee05b.webp"
-      alt="Checklist Preview"
-      className="rounded-lg  w-full max-w-7xl"
-    />
-  </div>
-  <div className="text-center mt-1">
-                            <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md shadow-md">
-                                Get The Checklist Now<br />
-                                <span className="text-sm block mt-1 font-normal">
-                                    Backed by Our 60-Day 100% Money Back Guarantee
-                                </span>
-                            </button>
-                        </div>
-</div>
+                    <h3 className="text-4xl text-center font-bold text-[var(--primary)] mb-8">
+                        Here's A Sneak Peek Of What's Inside The Checklist
+                    </h3>
+                    <div className="flex justify-center">
+                        <img
+                            src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/66af7ac48899dcc5168ee05b.webp"
+                            alt="Checklist Preview"
+                            className="rounded-lg  w-full max-w-7xl"
+                        />
+                    </div>
+                    <div className="text-center mt-1">
+                        <button className="bg-[var(--primary)] text-white font-semibold px-6 py-3 rounded-md shadow-md">
+                            Get The Checklist Now<br />
+                            <span className="text-sm block mt-1 font-normal">
+                                Backed by Our 60-Day 100% Money Back Guarantee
+                            </span>
+                        </button>
+                    </div>
+                </div>
             </section>
 
             {/* Bonuses */}

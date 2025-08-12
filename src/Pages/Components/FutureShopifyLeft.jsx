@@ -89,22 +89,7 @@ const FutureShopifyLeft = ({personalStory}) => {
                         allow="autoplay; fullscreen; picture-in-picture"
                         className="w-full h-11/12 rounded-md border-2 border-yellow-400"
                     ></iframe>
-                    {/* <video
-        controls
-        className="w-full rounded-md border-2 border-yellow-400"
-        poster="/path-to-thumbnail.png"
-    >
-        <source src="https://go.goldenweb.net/v2-page-7971?wvideo=l3luqao8tk" type="video/mp4" />
-        Your browser does not support the video tag.
-    </video> */}
-
-                    {/* <div className="absolute bottom-4 left-4 bg-slate-900 text-white text-sm px-3 py-2 rounded shadow-lg max-w-xs">
-        "We've been using the checklist for{' '}
-        <span className="text-[var(--primary)] font-semibold">3–4 weeks</span>{' '}
-        now and the results are amazing. We’re{' '}
-        <span className="text-[var(--primary)] font-semibold">growing our traffic</span>{' '}
-        every single day."
-    </div> */}
+                 
                 </div>
 
                 <div className="text-black text-xl text-left space-y-4 max-w-3xl mx-auto text-base">

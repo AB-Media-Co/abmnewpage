@@ -47,7 +47,7 @@ const FutureShopify = ({ personalStory }) => {
                         {/* Guarantee Box */}
                         <hr className='text-gray-400'></hr>
                         <div className="bg-slate-900 text-white text-lg font-bold text-center py-4 uppercase">
-                         Frequently Asked Questions
+                            Frequently Asked Questions
                         </div>
                         <div className="  rounded-md  text-slate-900 flex items-start gap-3">
                             <span className="text-2xl">❓</span>
@@ -107,9 +107,9 @@ const FutureShopify = ({ personalStory }) => {
 
                         {/* Review Section */}
                         <div>
-                           <div className="bg-slate-900 text-white text-lg font-bold text-center py-4 uppercase">
-                            Reviews
-                        </div>
+                            <div className="bg-slate-900 text-white text-lg font-bold text-center py-4 uppercase">
+                                Reviews
+                            </div>
                             <div className="bg-white p-6 rounded-b-md mt-8  text-center text-slate-900">
                                 <img
                                     src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/a714f61b-c289-48bb-9164-d882bcafa352.png"
@@ -125,7 +125,7 @@ const FutureShopify = ({ personalStory }) => {
                             </div>
                         </div>
                         <div>
-                      
+
                             <div className="bg-white p-6 rounded-b-md  text-center text-slate-900">
                                 <img
                                     src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/df9bae65-b955-444b-b5bc-81517811289c.png"
@@ -237,13 +237,13 @@ const FutureShopify = ({ personalStory }) => {
                         <hr className="border-slate-600 my-6" />
 
                         {/* Testimonials */}
-                        
-                         <div className="bg-slate-900 text-white text-lg font-bold text-center py-4 uppercase">
-                          Testimonials
+
+                        <div className="bg-slate-900 text-white text-lg font-bold text-center py-4 uppercase">
+                            Testimonials
                         </div>
 
                         {/* Testimonial Card */}
-                         <img
+                        <img
                             src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/geFyhGMcICfV9Fw6HQBK/media/c28dc0c1-1860-4fca-b62c-ed8e2864fc62.png"
                             alt="Testimonial Screenshot"
                             className="w-full mx-auto"
@@ -341,9 +341,9 @@ const FutureShopify = ({ personalStory }) => {
                         </div>
                         <hr className="border-slate-600 my-10" />
                         {/* Section Title */}
-                      
+
                         <div className="bg-slate-900 text-white text-lg font-bold text-center py-4 uppercase">
-                          Included Bonuses
+                            Included Bonuses
                         </div>
 
 
@@ -406,10 +406,10 @@ const FutureShopify = ({ personalStory }) => {
                             Delivered instantly. Get started in the next 2 minutes.
                         </p>
 
-                        {/* Availability Text */}
-                        <p className="text-[var(--primary)] text-2xl text-center font-semibold mt-4">
-                            Available For Instant<br />Download
-                        </p>
+                                {/* Availability Text */}
+                                <p className="text-[var(--primary)] text-2xl text-center font-semibold mt-4">
+                                    Available For Instant<br />Download
+                                </p>
 
                         {/* CTA Button */}
                         <button className="mt-4 bg-[var(--primary)] text-white font-bold text-xl px-4 py-2 w-full max-w-xs mx-auto block rounded shadow">
